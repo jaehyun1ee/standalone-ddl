@@ -8,5 +8,5 @@
 
 ## Lecture
 
-### Lec01
+> ### Lec01
 사전학습 : Google Colab과 Python Numpy Library 사용법에 대한 Tutorial Code입니다. [Colab & Numpy Tutorial Code](Lec01/Lec01_Colab_&_Numpy_Tutorial.ipynb)
