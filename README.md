@@ -5,8 +5,11 @@
 
 ## [Syllabus](https://docs.google.com/document/d/17PwKdZzKcuDMwj2gHwknghfnnjx8yttFv6-SD_Tr8yw/edit?usp=sharing) 
 
+***
 
 ## Lecture
 
-### Lec00
+### Lec01
 사전학습 : Google Colab과 Python Numpy Library 사용법에 대한 Tutorial Code입니다. [Colab & Numpy Tutorial Code](Lec01/Lec01_Colab_&_Numpy_Tutorial.ipynb)
+
+***
