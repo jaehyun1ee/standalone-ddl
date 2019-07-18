@@ -6,7 +6,7 @@
 ## [Syllabus](https://docs.google.com/document/d/17PwKdZzKcuDMwj2gHwknghfnnjx8yttFv6-SD_Tr8yw/edit?usp=sharing) 
 
 
-## Lecture Notes
+## Lecture
 
-
-## Codes
+#### Lec00
+사전학습 : Colab & Numpy Tutorial Code
