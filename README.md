@@ -8,5 +8,5 @@
 
 ## Lecture
 
-#### Lec00
+### Lec00
 사전학습 : Colab & Numpy Tutorial Code
