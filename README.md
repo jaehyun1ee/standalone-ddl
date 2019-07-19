@@ -14,7 +14,6 @@
 Google Colab과 Python Numpy Library 사용법에 대한 Tutorial Code입니다. : [tutorial](Lec01/Lec01_Colab_&_Numpy_Tutorial.ipynb)
 
 ###### 강의자료
-[Lec01_Intro to ML](TBA)
 
 ###### 코딩실습
-Iris Classification with Nearest Neighbor Algorithm : [skeleton](Lec01/Lec1_Nearest_Neighbor_sk.ipynb) / [full](TBA)
+Iris Classification with Nearest Neighbor Algorithm : [skeleton](Lec01/Lec1_Nearest_Neighbor_sk.ipynb)
