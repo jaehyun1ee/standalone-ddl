@@ -16,5 +16,5 @@ Google Colab과 Python Numpy Library 사용법에 대한 Tutorial Code입니다.
 ###### 강의자료
 
 ###### 코딩실습
-Iris Classification with Nearest Neighbor Algorithm : [skeleton](Lec01/Lec1_Nearest_Neighbor_sk.ipynb)
+Iris Classification with Nearest Neighbor Algorithm : [skeleton](Lec01/Lec1_Nearest_Neighbor_sk.ipynb)  
 Iris Classification with K-Nearest Neighbor Algorithm (optional) : [skeleton](Lec01/Lec01_K_Nearest_Neighbor_sk.ipynb)
