@@ -9,7 +9,7 @@
 ## Lecture
 
 ### Before any Lectures,
-수강생 여러분의 ML 배경지식과, 코딩 경험을 알아보기 위한 설문조사입니다! : [form](https://docs.google.com/forms/d/1sRzFFyPgnSEDppsenFGMAvfcfALRoT6vrrlyuj_1304/edit)
+수강생 여러분의 ML 배경지식과, 코딩 경험을 알아보기 위한 설문조사입니다! : [form](https://forms.gle/Jd2tEZxA4y6EgBNq9)
 
 ### Lec01 : Intro to ML
 
