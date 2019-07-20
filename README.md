@@ -8,6 +8,9 @@
 
 ## Lecture
 
+### Before any Lectures,
+수강생 여러분의 ML 배경지식과, 코딩 경험을 알아보기 위한 설문조사입니다! : [form](https://docs.google.com/forms/d/1sRzFFyPgnSEDppsenFGMAvfcfALRoT6vrrlyuj_1304/edit)
+
 ### Lec01 : Intro to ML
 
 2019/07/22(월) 14:00 ~ 17:00 W8 3층 세미나실
