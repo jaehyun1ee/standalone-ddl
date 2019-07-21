@@ -24,3 +24,10 @@ Intro to ML : [[slides](Lec01/Lec01_Intro_to_ML_upld.pdf)]
 ###### 코딩실습
 Iris Classification with Nearest Neighbor Algorithm : [[skeleton](Lec01/Lec01_Nearest_Neighbor_sk.ipynb)]<br/>
 Iris Classification with K-Nearest Neighbor Algorithm (optional) : [[skeleton](Lec01/Lec01_K_Nearest_Neighbor_sk.ipynb)]
+
+### Lec02 : Linear Classifier
+
+2019/07/23(화) 14:00 ~ 17:00 W8 3층 세미나실
+
+###### 코딩실습
+Iris Classification with Linear Classifier (w/o Optimization) : [[skeleton](Lec02/Lec02_NoTrain_sk.ipynb)]
