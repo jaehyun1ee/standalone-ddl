@@ -309,7 +309,7 @@ Linear Classifier는 feature를 각 label에 대한 점수로 mapping합니다.
 아까 이야기한 가중치가 숫자로 표현되어 parameter가 되는데요, 아까 Setosa 예시를 이어서 보면, Setosa에 대한 점수를 계산할 때, 꽃잎 길이에 큰 수를 곱해서 점수를 계산하는 식으로 가중치가 반영됩니다.
 
 > Algebraic Interpretation
-◦
+
 정리하면, Linear Classifier는, 각각의 feature에 가중치를 곱해서 더한 값으로 각 label의 점수를 계산합니다.<br/>
 
 이러한 계산들을 깔끔하게 식으로 정리하면, s = W * x가 되겠죠.<br/>
@@ -320,7 +320,7 @@ W의 각 row는, 각각의 label에 대한 가중치 parameter들이 됩니다.
 Bias가 갑자기 왜 더해졌는지는 뒤에서 설명하겠습니다.<br/>
 
 > Geometric Interpretation
-◦
+
 위에서 설명한 식 s = W * x + b는 기하적으로 어떤 의미를 내포하고 있을까요? 왜 이것을 Linear한 분류기라고 부르는 걸까요?<br/>
 
 먼저, 각 data를 기하적으로 보면, Iris Classification problem에서 각 data는 4차원 공간상의 한 점입니다. 
