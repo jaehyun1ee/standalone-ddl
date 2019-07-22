@@ -1,5 +1,7 @@
 # Lec01_Intro to ML
 
+<hr/>
+
 ## Contents
 
 1. What is Machine Learning?
@@ -7,9 +9,11 @@
 3. Testing a Model
 4. Making a Model II
 
+<hr/>
+
 ## 1. What is Machine Learning?
 
-### AI vs. ML vs. DL
+### A. AI vs. ML vs. DL
 
 AI(Artificial Intelligence, 인공지능), ML(Machine Learning, 기계학습), DL(Deep Learning, 딥러닝)은 서로 다른 분야일까요?
 비슷한 의미로 사용되는 단어들 같은데, 서로 어떤 관련이 있을까요?<br/>
@@ -48,7 +52,7 @@ DL은 말그대로, 더 깊은 ML을 의미합니다.<br/>
 DL에서는 복잡한 데이터 처리를 위해, 인간의 신경망을 모방한 ANN(Artificial Neural Network, 인공신경망)을 사용합니다. 
 4회차에 DL과 ANN이 등장할 테니, 그때 더 자세한 설명을 붙이겠습니다.
 
-### Fields of ML
+### B. Fields of ML
 
 ML의 분과는 크게 Supervised Learning(지도학습)과 Unsupervised Learning(비지도학습)으로 구분 가능합니다.<br/>
 
@@ -93,7 +97,7 @@ Supervised Learning의 경우, 정답을 기계에게 알려주며 학습시키�
 기계는 주어진 데이터에서 feature(특징)들을 뽑아서 데이터의 특징을 보존하면서, 데이터의 차원을 줄여 줍니다. 
 예로는, PCA(Principal Component Analysis, 주성분분석)과 AE(Autoencoder)가 있습니다.
 
-### Narrow Down to Image Classification
+### C. Narrow Down to Image Classification
 
 위에 설명한 ML의 분과들을 모두 다루기에는 우리에게 주어진 시간이 부족합니다. (사실, 전달할 역량도 부족합니다.)<br/>
 
@@ -119,9 +123,11 @@ Image Classifiecation에 대해 먼저 큰 그림을 그리고 시작하겠습�
 
 이제, Model을 어떻게 만드는지 알아보겠습니다.
 
+<hr/>
+
 ## 2. Making a Model I
 
-### Narrow Down to Iris Classification
+### A. Narrow Down to Iris Classification
 
 특강의 범위를 Image Classification으로 좁혔지만, 벌써부터 사진을 다루면 개념 이해가 어려울 것 같습니다.<br/>
 
@@ -137,7 +143,7 @@ F열은 해당 꽃의 종인데요, 각 특징에 대한 정답이므로, label�
 
 우리의 목표는, 주어진 학습 Dataset(Feature와 Label들)을 통해 Model을 학습시켜, 새로운 input feature에 대해 label을 예측하는 것입니다.
 
-### Data-Driven Approach
+### B. Data-Driven Approach
 
 Model을 만드는 첫번째 방법은, 현재 가지고 있는 Dataset을 그대로 활용하는 방법입니다.<br/>
 
@@ -150,7 +156,7 @@ Predict 단계에서는, 주어진 input feature과 가장 비슷한 Dataset의 
 여기서, ‘비슷하다’는 추상적인 표현인데요, 프로그램이 예측을 내리기 위해서는 비슷한 정도를 수치적으로 표현해 주어야 합니다. 
 이때, feature가 서로 비슷하다는 것을 어떻게 수치적으로 정의할 수 있을까요?
 
-### Nearest Neighbor Algorithm
+### C. Nearest Neighbor Algorithm
 
 Nearest Neighbor Algorithm에서는, 두 feature vector 사이의 거리로 두 feature의 비슷한 정도를 나타냅니다.<br/>
 
@@ -162,7 +168,7 @@ L1 distance는, vector component들의 차이의 절댓값의 합을 구한 것�
 
 이제, input feature과의 distance가 가장 작은 Dataset의 data를 찾아, 해당 data의 label로 prediction을 내립니다.
 
-### K-Nearest Neighbor Algorithm
+### D. K-Nearest Neighbor Algorithm
 
 K-Nearest Neighbor Algorithm은 위의 Nearest Neighbor Algorithm의 변형입니다.<br/>
 
@@ -173,9 +179,11 @@ NN은 가장 distance가 작은 data 1개를 고르는 반면, K-NN은 distance�
 
 이렇게 우리의 첫번째 Model이 완성되었습니다. NN과 K-NN을 이용한 Iris Classification은 Github Repo에 올려 두었습니다.
 
+<hr/>
+
 ## 3. Testing a Model
 
-### Test Set
+### A. Test Set
 
 지금까지 열심히 Model을 만들었습니다. 그러면 이렇게 만든 Model을 바로 Iris Classification에 활용할 수 있을까요?<br/>
 
@@ -203,7 +211,7 @@ Iris Classification에 Real-world problem을 대입하여 생각해 보면 이 �
 
 다시 말하면, Test set은 Model이 unseen data에 대해 얼마나 잘 작동하는가를 시험하기 위해 존재하는 거죠!
 
-### Validation Set
+### B. Validation Set
 
 K-NN Algorithm으로 Model을 만들 때, 우리는 Model을 오로지 하나만 만들 수 있을까요?<br/>
 
@@ -234,7 +242,7 @@ Test set은 Model이 unseen data에 대해 얼마나 잘 작동하는가를 시�
 2. Validation set에서의 정확도가 가장 높은 Model을 선택합니다. 
 3. 그리고, Test set으로 선택된 Model의 unseen data에 대한 정확도를 계산하는 거죠!
 
-### Cross-Validation
+### C. Cross-Validation
 
 Model을 학습시키고, 최적의 hyperparameter 조합을 찾고, 그 성능을 test하려면, 전체 Dataset을 세 부분으로 나눠야 합니다.<br/>
 
@@ -249,9 +257,11 @@ Model을 학습시키고, 최적의 hyperparameter 조합을 찾고, 그 성능�
 모든 fold가 Validation set의 역할을 수행할 수 있도록 총 K번 iterate시키며 학습이 진행되고, K번의 Validation에서의 평균으로 각 Model의 성능을 판단합니다. 
 4. 그 다음, 원래 하던대로 Test set을 이용하여 unseen data에 대한 정확도를 측정하면 되겠습니다.
 
-## Making a Model II
+<hr/>
 
-### Limitations of K-NN
+## 4. Making a Model II
+
+### A. Limitations of K-NN
 
 이제 우리는, Data-Driven Approach로 Model을 만들고, 그것을 Test할 수 있게 되었습니다.<br/>
 
@@ -283,7 +293,7 @@ Facebook에서 얼굴 인식 알고리즘을 K-NN으로 구현했다고 상상�
 따라서, 우리는 이제 Data-Driven Approach를 버리고, 새로운 Approach를 취해야 합니다. 
 각 label의 특징을 잘 학습하면서, Prediction을 금방금방 내릴 수 있는 Model을 어떻게 만들 수 있을까요?
 
-### Parametric Approach
+### B. Parametric Approach
 
 전체 Dataset을 외우는 Data-Driven Approach에서 발생하는 문제들을 피하기 위해, 각 label별 특징들을 변수에 저장하고 있으면 어떻까요?<br/>
 
@@ -294,7 +304,7 @@ Train 과정에서는, 변수가 label별 특징들을 잘 내포할 수 있도�
 
 그러면, 이 접근 방법은, Parametric Approach라고 부르면 되겠네요.
 
-### Linear Classifier
+### C. Linear Classifier
 
 > Idea
 
@@ -341,6 +351,10 @@ W * x + b = 0으로 두고 만든 hyperplane을 보면, 각 label을 분류해 �
 하지만, 4차원 공간 안에서는 decision hyperplane이 각 label들을 잘 분류해 주고 있습니다.<br/>
 
 *** 기하적으로 W * x + b를 그려 보면, decision hyperplane이 되는구나! 정도만 이해하시면 충분합니다.<br/>
+
+<hr/>
+
+## Preview on Next Lectures,
 
 이로써, Linear Classifier가 무엇을 하는 Model인지 알아보았습니다.<br/>
 
