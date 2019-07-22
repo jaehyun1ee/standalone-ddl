@@ -34,5 +34,8 @@ Lec01에 대한 피드백 설문조사입니다! : [[form](https://forms.gle/tGX
 
 2019/07/23(화) 14:00 ~ 17:00 W8 3층 세미나실
 
+###### 강의자료
+Linear Classifier : [[slides](Lec02/Lec02_Linear_Classifier_v2_upld.pdf)]
+
 ###### 코딩실습
 Iris Classification with Linear Classifier (w/o Optimization) : [[skeleton](Lec02/Lec02_NoTrain_sk.ipynb)]
