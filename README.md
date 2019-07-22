@@ -26,7 +26,7 @@ Iris Classification with Nearest Neighbor Algorithm : [[skeleton](Lec01/Lec01_Ne
 Iris Classification with K-Nearest Neighbor Algorithm (optional) : [[skeleton](Lec01/Lec01_K_Nearest_Neighbor_sk.ipynb)]
 
 ###### 사후 설문조사
-[[form](https://forms.gle/tGXtwfH8TnxRLzxU9)]
+Lec01에 대한 피드백 설문조사입니다! : [[form](https://forms.gle/tGXtwfH8TnxRLzxU9)]
 
 ### Lec02 : Linear Classifier
 
