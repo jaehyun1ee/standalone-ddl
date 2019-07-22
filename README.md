@@ -9,7 +9,9 @@
 ## Lecture
 
 ### Before any Lectures,
-수강생 여러분의 ML 배경지식과, 코딩 경험을 알아보기 위한 설문조사입니다! : [[form](https://forms.gle/Jd2tEZxA4y6EgBNq9)]
+수강생 여러분의 ML 배경지식과, 코딩 경험을 알아보기 위한 설문조사입니다! : [[form](https://forms.gle/Jd2tEZxA4y6EgBNq9)]<br/>
+
+Python 기초 강의입니다. 02장-01 ~ 04 / 03장-01 ~ 03 / 04장-01 을 보시면 좋을 것 같습니다! : [[Jump to Pyhon](https://wikidocs.net/book/1)]
 
 ### Lec01 : Intro to ML
 
