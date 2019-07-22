@@ -192,7 +192,7 @@ NN은 가장 Distance가 작은 Data 1개를 고르는 반면, K-NN은 Distance�
 
 아닙니다.<br/>
 
-그 이유는, **“뭘 믿고?”**라는 질문으로 요약될 수 있습니다.<br/>
+그 이유는, “뭘 믿고?”라는 질문으로 요약될 수 있습니다.<br/>
 
 우리는 Model을 일단 만들기는 했지만, 이 Model이 얼마나 정확한 Prediction을 내리는지는 모릅니다. 
 그렇기 때문에, Iris Classification에서 이 Model의 Prediction을 신뢰할 수 없습니다. 
@@ -378,7 +378,7 @@ W * x + b = 0으로 두고 만든 Hyperplane을 보면, 각 Label을 분류해 �
 **1. Train이 잘 되었는지 확인할 수치적 척도가 필요합니다.**<br/>
 
 현재의 Model이 아주 부정확하다면, Parameter를 많이 Update시켜야 할 것이고, 거의 정확하다면, Parameter를 조금만 Update시켜줘도 될 것입니다. 
-현재 Model이 Update되어야 하는 정도를 수치화하여 표현할 필요가 있습니다.<br/>
+현재 Model이 Update되어야 하는 정도를 수치화하여 표현할 필요가 있습니다.<br/><br/>
 
 **2. Parameter를 update하는 algorithm이 필요합니다.**<br/>
 
