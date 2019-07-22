@@ -1,7 +1,5 @@
 # Lec01_Intro to ML
 
-<hr/>
-
 ## Contents
 
 1. What is Machine Learning?
@@ -43,7 +41,7 @@ ML은 다음 문장으로 설명 가능합니다.<br/>
 ```
 
 즉, 경험을 통해 학습하고, 발전하는 컴퓨터 프로그램을 만드는 것이 ML의 목표입니다.<br/>
-ML의 학습 알고리즘을 통해, 기계는 지능을 implicit하게 내장하게 됩니다.  
+ML의 학습 알고리즘을 통해, 기계는 지능을 implicit하게 내장하게 됩니다. 
 위에서 다룬, 정수의 음양을 구분하는 프로그램처럼 지능이 겉으로 드러나지 않는 거죠!<br/><br/>
 
 > DL
@@ -72,13 +70,13 @@ Supervised Learning의 경우, 정답을 기계에게 알려주며 학습시키�
 
 기계는 분류 방법을 학습합니다.<br/>
 예를 들어, 기계에게 고양이 사진을 주고, “이것은 고양이 사진이야.” 라고 정답을 알려줍니다. 
-또, 기계에게 사자 사진을 주고, “이것은 사자 사진이야.” 라고 정답을 알려줍니다.  
+또, 기계에게 사자 사진을 주고, “이것은 사자 사진이야.” 라고 정답을 알려줍니다. 
 이런 식으로 기계를 학습시킨 후, 기계는 입력으로 들어온 사진에 대해, 그 사진이 어떤 동물인지 분류할 수 있게 됩니다.
 
 >> Continuous : regression
 
 기계는 회귀 식을 학습합니다.<br/>
-예를 들어, 기계에게 학생들의 공부 시간과 그에 따른 기말고사 점수를 학습시킵니다.  
+예를 들어, 기계에게 학생들의 공부 시간과 그에 따른 기말고사 점수를 학습시킵니다. 
 학습 이후, 기계는 공부 시간과 기말고사 점수 사이의 관계식을 학습하게 되어, 10시간 공부한 학생의 기말고사 점수는 몇점일지 예측할 수 있게 됩니다.<br/><br/>
 
 > Unsupervised
@@ -87,7 +85,7 @@ Supervised Learning의 경우, 정답을 기계에게 알려주며 학습시키�
 
 학습 데이터로 정답이 없는 데이터가 주어집니다. 
 기계는 서로 비슷한 데이터를 군집화하는 방법을 학습합니다.<br/>
-예를 들어, 정답 없이 고양이 사진, 사자 사진, 강아지 사진, 말 사진, 돼지 사진들을 주면, 기계는 서로 비슷한 사진들을 하나의 class로 묶습니다.  
+예를 들어, 정답 없이 고양이 사진, 사자 사진, 강아지 사진, 말 사진, 돼지 사진들을 주면, 기계는 서로 비슷한 사진들을 하나의 class로 묶습니다. 
 학습이 잘 되었다면, 고양이 사진은 class 1, 사자 사진은 class 2 와 같이 군집화가 될 것입니다.
 
 >> Continuous : dimensionality reduction
@@ -111,7 +109,7 @@ Image Classification은 크게 두 단계로 나눌 수 있는데요,<br/>
 1. Train
 
 정답이 달린 사진들을 프로그램에게 학습시킵니다.<br/>
-강아지 사진을 보여주고 “이건 강아지야.”라고 알려주고, 다음 고양이 사진을 보여주고 “이건 고양이야”라고 알려주는 식으로 학습이 진행됩니다.  
+강아지 사진을 보여주고 “이건 강아지야.”라고 알려주고, 다음 고양이 사진을 보여주고 “이건 고양이야”라고 알려주는 식으로 학습이 진행됩니다. 
 이 과정에서, 프로그램은 ‘대강 이렇게 생긴 사진을 강아지/고양이라고 하는구나.’를 학습합니다.<br/>
 
 2. Predict
@@ -153,7 +151,8 @@ Iris Classification의 경우, 150개의 붓꽃 정보들을 Model의 메모리�
 Predict 단계에서는, 주어진 input feature과 가장 비슷한 Dataset의 data를 찾습니다.  
 그리고, 가장 비슷한 data의 label이 input feature의 label일 것이라고 예측합니다.<br/>
 
-여기서, ‘비슷하다’는 추상적인 표현인데요, 프로그램이 예측을 내리기 위해서는 비슷한 정도를 수치적으로 표현해 주어야 합니다.  
+여기서, ‘비슷하다’는 추상적인 표현인데요, 프로그램이 예측을 내리기 위해서는 비슷한 정도를 수치적으로 표현해 주어야 합니다.<br/>
+
 이때, feature가 서로 비슷하다는 것을 어떻게 수치적으로 정의할 수 있을까요?
 
 ### C. Nearest Neighbor Algorithm
@@ -187,18 +186,19 @@ NN은 가장 distance가 작은 data 1개를 고르는 반면, K-NN은 distance�
 
 지금까지 열심히 Model을 만들었습니다. 그러면 이렇게 만든 Model을 바로 Iris Classification에 활용할 수 있을까요?<br/>
 
-아닙니다.  
+아닙니다.<br/>
+
 그 이유는, “뭘 믿고?”라는 질문으로 요약될 수 있습니다.<br/>
 
 우리는 Model을 일단 만들기는 했지만, 이 Model이 얼마나 정확한 Prediction을 내리는지는 모릅니다.  
-그렇기 때문에, Iris Classification에서 이 Model의 Prediction을 신뢰할 수 없습니다.  
+그렇기 때문에, Iris Classification에서 이 Model의 Prediction을 신뢰할 수 없습니다. 
 이 Model의 정확도가 100%라면 좋겠지만, 30%일 수도 있기 때문입니다.<br/>
 
-Iris Classification에 Real-world problem을 대입하여 생각해 보면 이 설명이 더 와닿을 것 같습니다.  
-메일링 서비스의 스팸 메일 분류기를 개발하는 부서에 있다고 상상해 봅시다.  
-몇달간의 개발로, 스팸 메일 분류기를 완성했습니다.  
-회사는 분류기를 100% 신뢰하기로 하고, 분류기를 바로 서비스에 적용했습니다.  
-그런데 이때, 알고 보니 분류기가 스팸 메일이 아닌 메일도 스팸으로 잘못 분류하는, 정확도가 낮은 분류기였던 겁니다!  
+Iris Classification에 Real-world problem을 대입하여 생각해 보면 이 설명이 더 와닿을 것 같습니다. 
+메일링 서비스의 스팸 메일 분류기를 개발하는 부서에 있다고 상상해 봅시다. 
+몇달간의 개발로, 스팸 메일 분류기를 완성했습니다. 
+회사는 분류기를 100% 신뢰하기로 하고, 분류기를 바로 서비스에 적용했습니다. 
+그런데 이때, 알고 보니 분류기가 스팸 메일이 아닌 메일도 스팸으로 잘못 분류하는, 정확도가 낮은 분류기였던 겁니다! 
 하지만, 회사는 분류기를 100% 신뢰하기 때문에, 클라이언트들의 메일이 잘못 분류되고 있다는 사실을 인지하지 못합니다.  
 끔찍하죠?<br/>
 
@@ -206,8 +206,8 @@ Iris Classification에 Real-world problem을 대입하여 생각해 보면 이 �
 
 따라서, 우리는 주어진 Dataset을 Training set과, Test set으로 구분합니다.<br/>
 
-1. Training set으로는 Model을 학습시키고, 
-2. Test set으로는 완성된 Model의 정확도를 측정합니다.
+1. Training set으로는 Model을 학습시키고,<br/><br/>
+2. Test set으로는 완성된 Model의 정확도를 측정합니다.<br/>
 
 다시 말하면, Test set은 Model이 unseen data에 대해 얼마나 잘 작동하는가를 시험하기 위해 존재하는 거죠!
 
@@ -215,14 +215,15 @@ Iris Classification에 Real-world problem을 대입하여 생각해 보면 이 �
 
 K-NN Algorithm으로 Model을 만들 때, 우리는 Model을 오로지 하나만 만들 수 있을까요?<br/>
 
-아닙니다.  
+아닙니다.<br/>
+
 Feature간의 distance를 구할 때, L1 distance를 쓸 수도 있고, L2 distance를 쓸 수도 있습니다.  
 또한, K를 3으로 설정할 수도 있고, 5로 설정할 수도 있습니다.<br/>
 
 이러한 선택들은 기계가 학습하기 이전에 사람이 결정해줘야 하는 것들입니다. 
-이러한 선택들을 hyperparameter라 부르겠습니다.<br/>
+이러한 선택들을 Hyperparameter라 부르겠습니다.<br/>
 
-그러면, hyperparameter들의 조합으로 여러 가지 Model을 만들 수 있겠죠?<br/>
+그러면, Hyperparameter들의 조합으로 여러 가지 Model을 만들 수 있겠죠?<br/>
 
 Hyperparameter의 조합에 따라, Model의 성능이 좋을 수도 있고, 나쁠 수도 있습니다.  
 또한, 일반적으로 잘 작동하는 Hyperparameter 조합은 거의 없으며, 많은 경우 problem-dependent합니다.  
@@ -230,21 +231,22 @@ Hyperparameter의 조합에 따라, Model의 성능이 좋을 수도 있고, 나
 
 그러면, Training set으로 다양한 Model들을 각자 학습시킨 후, Test set에서 측정한 정확도가 가장 높은 Model을 선택하면 되지 않을까요?<br/>
 
-얼핏 보면 맞는 이야기 같지만, 사실 그렇게 해서는 안됩니다.  
+얼핏 보면 맞는 이야기 같지만, 사실 그렇게 해서는 안됩니다.<br/>
+
 Test set은 Model이 unseen data에 대해 얼마나 잘 작동하는가를 시험하기 위해 존재하기 때문이죠.<br/>
 
-우리가 Test set에서의 성능이 가장 높은 Model을 선택한다는 것은, Test set에 대해 가장 잘 작동하는 hyperparameter 조합을 선택한다는 것과 같습니다.  
+우리가 Test set에서의 성능이 가장 높은 Model을 선택한다는 것은, Test set에 대해 가장 잘 작동하는 Hyperparameter 조합을 선택한다는 것과 같습니다.  
 그러면, Test set이 학습 과정에 개입하게 되고, Test set은 unseen data에 대한 performance를 표현할 수 없게 됩니다.<br/>
 
 이 문제를 해결하기 위해, 우리는 주어진 Dataset을 Training set, Validation set, Test set의 총 3개의 부분으로 나눕니다.<br/>
 
-1. Training set으로 다양한 Model들을 각각 학습시킨 후,<br/>
-2. Validation set에서의 정확도가 가장 높은 Model을 선택합니다.<br/>
+1. Training set으로 다양한 Model들을 각각 학습시킨 후,<br/><br/>
+2. Validation set에서의 정확도가 가장 높은 Model을 선택합니다.<br/><br/>
 3. 그리고, Test set으로 선택된 Model의 unseen data에 대한 정확도를 계산하는 거죠!
 
 ### C. Cross-Validation
 
-Model을 학습시키고, 최적의 hyperparameter 조합을 찾고, 그 성능을 test하려면, 전체 Dataset을 세 부분으로 나눠야 합니다.<br/>
+Model을 학습시키고, 최적의 Hyperparameter 조합을 찾고, 그 성능을 test하려면, 전체 Dataset을 세 부분으로 나눠야 합니다.<br/>
 
 하지만, 현재 가지고 있는 Dataset이 너무 작다면 어떻게 해야 할까요?  
 전체 Dataset을 나누다 보니 Training set과 Validation set이 고르게 나눠지지 않을 수도 있지 않을까요?<br/>
@@ -287,7 +289,7 @@ Iris Classification에서는, data가 150개 정도 뿐이고, feature도 4개 �
 하지만, Prediction을 내릴 때는 그 결과가 금방 나오기를 기대합니다.<br/>
 
 Facebook에서 얼굴 인식 알고리즘을 K-NN으로 구현했다고 상상해 봅시다.  
-사진 1개에 대해 얼굴 인식을 하려면 아마 반나절 이상이 걸릴 겁니다.  
+사진 1개에 대해 얼굴 인식을 하려면 아마 반나절 이상이 걸릴 겁니다. 
 결과가 바로 나와야 하는데, 이러면 아주 곤란한 상황이 생길 것입니다.<br/>
 
 따라서, 우리는 이제 Data-Driven Approach를 버리고, 새로운 Approach를 취해야 합니다.  
@@ -297,7 +299,7 @@ Facebook에서 얼굴 인식 알고리즘을 K-NN으로 구현했다고 상상�
 
 전체 Dataset을 외우는 Data-Driven Approach에서 발생하는 문제들을 피하기 위해, 각 label별 특징들을 변수에 저장하고 있으면 어떻까요?<br/>
 
-Train 과정에서는, 변수가 label별 특징들을 잘 내포할 수 있도록 그 값을 조정해 주고, Prediction을 내릴 때는, input과 변수만 가지고 예측을 하는거죠!  그러면, Prediction이 금방 내려질 것입니다!  
+Train 과정에서는, 변수가 label별 특징들을 잘 내포할 수 있도록 그 값을 조정해 주고, Prediction을 내릴 때는, input과 변수만 가지고 예측을 하는거죠!  그러면, Prediction이 금방 내려질 것입니다! 
 변수가 label별 특징을 잘 학습하게만 하면 되는거죠.<br/>
 
 우리는 이 변수를 parameter라고 부르겠습니다.<br/>
@@ -318,7 +320,7 @@ Iris Classification에서, Setosa 종의 꽃잎 길이가 다른 종에 비해 �
 Linear Classifier는 바로 이 가중치를 통해 데이터를 분류합니다.<br/>
 
 Linear Classifier는 feature를 각 label에 대한 점수로 mapping합니다.  
-그 다음, 점수가 가장 높은 label로 Prediction을 내리는데요, mapping 과정에서 parameter가 개입됩니다.  
+그 다음, 점수가 가장 높은 label로 Prediction을 내리는데요, mapping 과정에서 parameter가 개입됩니다. 
 아까 이야기한 가중치가 숫자로 표현되어 parameter가 되는데요, 아까 Setosa 예시를 이어서 보면, Setosa에 대한 점수를 계산할 때, 꽃잎 길이에 큰 수를 곱해서 점수를 계산하는 식으로 가중치가 반영됩니다.<br/><br/>
 
 > Algebraic Interpretation
@@ -328,7 +330,9 @@ Linear Classifier는 feature를 각 label에 대한 점수로 mapping합니다.
 이러한 계산들을 깔끔하게 식으로 정리하면, s = W * x가 되겠죠.<br/>
 
 W의 각 row는, 각각의 label에 대한 가중치 parameter들이 됩니다.  
-이 parameter W를 Weight라고 부르겠습니다.  
+이 parameter W를 Weight라고 부르겠습니다.<br/>
+
+
 사실, Linear Classifier는 s = W * x + b로 점수를 계산하는데요, 여기서 더해진 b는 Bias라고 합니다.  
 Bias가 갑자기 왜 더해졌는지는 뒤에서 설명하겠습니다.<br/><br/>
 
@@ -336,15 +340,16 @@ Bias가 갑자기 왜 더해졌는지는 뒤에서 설명하겠습니다.<br/><b
 
 위에서 설명한 식 s = W * x + b는 기하적으로 어떤 의미를 내포하고 있을까요? 왜 이것을 Linear한 분류기라고 부르는 걸까요?<br/>
 
-먼저, 각 data를 기하적으로 보면, Iris Classification problem에서 각 data는 4차원 공간상의 한 점입니다.  
+먼저, 각 data를 기하적으로 보면, Iris Classification problem에서 각 data는 4차원 공간상의 한 점입니다. 
 그리고, 이 점들을 label에 따라 색칠을 해서 보면, 같은 label들은 비슷한 위치에 분포되어 있음을 볼 수 있습니다.<br/>
 
 이들을 분류하는 것이 Linear Classifier의 목표인데요, Linear Classifier는 이들을 decision hyperplane으로 구분합니다.<br/>
 
-W * x + b의 각 row를 기하적으로 보면, W의 row가 법선벡터이고, 원점에서 b의 component정도만큼 떨어져 있는 hyperplane입니다.  
+W * x + b의 각 row를 기하적으로 보면, W의 row가 법선벡터이고, 원점에서 b의 component정도만큼 떨어져 있는 hyperplane입니다.<br/>
+
 W * x + b = 0으로 두고 만든 hyperplane을 보면, 각 label을 분류해 주는 decision hyperplane이 된다는 것을 관찰할 수 있습니다.<br/>
 
-그러면, bias가 왜 필요한지도 유추하실 수 있을텐데요, bias가 없었다면, decision hyperplane들이 모두 원점을 지나야 할 것입니다.  
+그러면, bias가 왜 필요한지도 유추하실 수 있을텐데요, bias가 없었다면, decision hyperplane들이 모두 원점을 지나야 할 것입니다. 
 그러면, 공간상의 label들을 잘 구분하지 못할 것입니다. 따라서, hyperplane들을 띄워 주기 위해 bias가 추가되었다고 볼 수 있습니다.<br/>
 
 *** 그림은 4차원 공간을 2차원으로 줄여서 표현했기 때문에, decision hyperplane의 분류 결과가 명확하지 않을 수 있습니다. 
@@ -358,21 +363,21 @@ W * x + b = 0으로 두고 만든 hyperplane을 보면, 각 label을 분류해 �
 
 이로써, Linear Classifier가 무엇을 하는 Model인지 알아보았습니다.<br/>
 
-하지만, 정확한 분류 결과를 주는 parameter W와 b는 우리에게 주어지는 것이 아니라, 프로그램이 학습을 통해 찾아야 하는 대상입니다.  
+하지만, 정확한 분류 결과를 주는 parameter W와 b는 우리에게 주어지는 것이 아니라, 프로그램이 학습을 통해 찾아야 하는 대상입니다. 
 따라서, 현재의 부정확한 W와 b를 학습을 통해 정확한 W와 b로 update시켜줄 필요가 있습니다.<br/>
 
 [[Live Linear Classifier](http://vision.stanford.edu/teaching/cs231n-demos/linearclassify/)]를 보시면, Linear Classifier가 update되는 것을 관찰하실 수 있습니다.<br/>
 
 그렇다면, 이러한 학습은 어떻게 이뤄지는 걸까요?<br/>
 
-이러한 학습을 Model Optimization이라고 부르는데요, Optimization을 위해, 두 가지 문제를 해결해야 합니다.<br/>
+이러한 학습을 Model Optimization이라고 부르는데요, Optimization을 위해, 두 가지 문제를 해결해야 합니다.<br/><br/>
 
-1. Train이 잘 되었는지 확인할 수치적 척도가 필요합니다.
+1. Train이 잘 되었는지 확인할 수치적 척도가 필요합니다.<br/>
 
 현재의 Model이 아주 부정확하다면, parameter를 많이 update시켜야 할 것이고, 거의 정확하다면, parameter를 조금만 update시켜줘도 될 것입니다. 
-현재 Model이 update되어야 하는 정도를 수치화하여 표현할 필요가 있습니다.
+현재 Model이 update되어야 하는 정도를 수치화하여 표현할 필요가 있습니다.<br/>
 
-2. Parameter를 update하는 algorithm이 필요합니다.
+2. Parameter를 update하는 algorithm이 필요합니다.<br/>
 
 현재의 parameter가 부정확하다면, 어떻게 해야 그 값을 정확하게 바꿀 수 있을까요?<br/>
 
