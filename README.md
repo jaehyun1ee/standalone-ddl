@@ -21,7 +21,7 @@ Python 기초 강의입니다. 02장-01 ~ 04 / 03장-01 ~ 03 / 04장-01 을 보�
 Google Colab과 Python Numpy Library 사용법에 대한 Tutorial Code입니다. : [[tutorial](Lec01/Lec01_Colab_&_Numpy_Tutorial.ipynb)]
 
 ###### 강의자료
-Intro to ML : [[slides](Lec01/Lec01_Intro_to_ML_v3_upld.pdf)]
+Intro to ML : [[slides](Lec01/Lec01_Intro_to_ML_v3_upld.pdf)] [[lecture in text](Lec01/Lec01_Intro_to_ML.md)]
 
 ###### 코딩실습
 Iris Classification with Nearest Neighbor Algorithm : [[skeleton](Lec01/Lec01_Nearest_Neighbor_sk.ipynb)] [[full code](Lec01/Lec01_Nearest_Neighbor.ipynb)]<br/>
