@@ -48,7 +48,7 @@ ML의 학습 알고리즘을 통해, 기계는 지능을 implicit하게 내장�
 
 DL은 말그대로, 더 깊은 ML을 의미합니다.<br/>
 DL에서는 복잡한 데이터 처리를 위해, 인간의 신경망을 모방한 ANN(Artificial Neural Network, 인공신경망)을 사용합니다.  
-4회차에 DL과 ANN이 등장할 테니, 그때 더 자세한 설명을 붙이겠습니다.<br/><br/>
+4회차에 DL과 ANN이 등장할 테니, 그때 더 자세한 설명을 붙이겠습니다.<br/>
 
 ### B. Fields of ML
 
@@ -379,7 +379,7 @@ W * x + b = 0으로 두고 만든 hyperplane을 보면, 각 label을 분류해 �
 
 2. Parameter를 update하는 algorithm이 필요합니다.<br/>
 
-현재의 parameter가 부정확하다면, 어떻게 해야 그 값을 정확하게 바꿀 수 있을까요?<br/>
+현재의 parameter가 부정확하다면, 어떻게 해야 그 값을 정확하게 바꿀 수 있을까요?<br/><br/>
 
 우리는 2회차와 3회차에 걸쳐 위 질문들을 답하며, Model Optimization을 공부하겠습니다.<br/>
 
