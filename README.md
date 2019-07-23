@@ -45,7 +45,7 @@ Lec01에 대한 피드백 설문조사입니다! : [[form](https://forms.gle/tGX
 
 ###### 강의자료
 
-Linear Classifier : [[slides](Lec02/Lec02_Linear_Classifier_v2_upld.pdf)]
+Linear Classifier : [[slides](Lec02/Lec02_Linear_Classifier_v2_upld.pdf)] [[lecture in text](Lec02/Lec02_Linear_Classifier.md)]
 
 ###### 코딩실습
 
