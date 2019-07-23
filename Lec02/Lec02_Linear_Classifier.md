@@ -65,7 +65,7 @@ Linear Classifier에 대한 기하적인 해석을 생각해 보면, Loss Functi
 
 Classification에서 자주 쓰이는 Loss Function에는 다음 2가지가 있습니다.<br/>
 
-**1. Multiclass SVM Loss**<br/>
+**1. Multiclass SVM Loss**<br/><br/>
 **2. Cross-Entropy Loss**<br/>
 
 이제 각각에 대해 알아보도록 하겠습니다.
