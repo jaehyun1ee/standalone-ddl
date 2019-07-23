@@ -38,7 +38,7 @@ Lec01에 대한 피드백 설문조사입니다! : [[form](https://forms.gle/tGX
 Linear Classifier : [[slides](Lec02/Lec02_Linear_Classifier_v2_upld.pdf)]
 
 ###### 코딩실습
-Iris Classification with Linear Classifier (w/o Optimization) : [[skeleton](Lec02/Lec02_NoTrain_sk.ipynb)]
+Iris Classification with Linear Classifier (w/o Optimization) : [[skeleton](Lec02/Lec02_NoTrain_sk.ipynb)] [[full code](Lec02/Lec02_NoTrain_sklearn.ipynb)]
 
 ###### 사후 설문조사
 Lec02에 대한 피드백 설문조사입니다! : [[form](https://forms.gle/HxgZx8W2Cy9NUqNb6)]
