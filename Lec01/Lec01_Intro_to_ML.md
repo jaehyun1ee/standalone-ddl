@@ -263,6 +263,10 @@ Model을 학습시키고, 최적의 Hyperparameter 조합을 찾고, 그 성능�
 모든 fold가 Validation set의 역할을 수행할 수 있도록 총 K번 iterate시키며 학습이 진행되고, K번의 Validation에서의 평균으로 각 Model의 성능을 판단합니다.<br/><br/>
 4. 그 다음, 원래 하던대로 Test set을 이용하여 unseen data에 대한 정확도를 측정하면 되겠습니다.
 
+### 참고하면 좋은 자료
+
+Training Set, Test Set, Validation Set의 차이가 아직 명확하지 않으시다면, [[Machine Learning에서 validation set을 사용하는 이유](https://3months.tistory.com/118)]을 참고해 주세요!
+
 <hr/>
 
 ## 4. Making a Model II
