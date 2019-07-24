@@ -212,6 +212,8 @@ Loss Function을 어떻게 정의하느냐에 따라 Loss 계산 방법이 달�
 
 [[Linear Classifier](http://cs231n.github.io/linear-classify/)]를 읽어 보시면, 오늘 강의 내용 전반에 대해 더 잘 이해하실 수 있을거에요!
 
+<hr/>
+
 ## Preview on Next Lecture
 
 현재 Parameter가 얼마나 정확한지를 수치적으로 나타냈지만, 실제로 Parameter들을 Update하는 과정은 아직 다루지 않았습니다. 
