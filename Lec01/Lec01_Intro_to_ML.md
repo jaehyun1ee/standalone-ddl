@@ -16,7 +16,9 @@
 AI(Artificial Intelligence, 인공지능), ML(Machine Learning, 기계학습), DL(Deep Learning, 딥러닝)은 서로 다른 분야일까요? 
 비슷한 의미로 사용되는 단어들 같은데, 서로 어떤 관련이 있을까요?<br/>
 
-AI의 범주 안에 ML이 포함되고, ML의 범주 안에 DL이 포함됩니다.<br/><br/>
+![AI vs. ML vs. DL](https://sonix.ai/assets/corp/articles/classification-of-ai-ml-dl-3cef98e6f2b03e48c1389929789cffdbe778d83eaf04b6327e5848cbe387c274.jpg)
+
+위와 같이, AI의 범주 안에 ML이 포함되고, ML의 범주 안에 DL이 포함됩니다.<br/><br/>
 
 > **AI**
 
