@@ -94,7 +94,7 @@ Supervised Learning의 경우, 정답을 기계에게 알려주며 학습시키�
 
 >> Continuous : **dimensionality reduction**
 
-이것 또한 학습 데이터로 정답이 없는 데이터가 주어집니다.<br/>
+이것 또한 학습 데이터로 정답이 없는 데이터가 주어집니다. 
 기계는 주어진 데이터에서 Feature(특징)들을 뽑아서 데이터의 특징을 보존하면서, 데이터의 차원을 줄여 줍니다.  
 예로는, PCA(Principal Component Analysis, 주성분분석)과 AE(Autoencoder)가 있습니다.
 
@@ -112,7 +112,7 @@ Image Classification은 크게 두 단계로 나눌 수 있는데요,<br/>
 
 **1. Train**
 
-정답이 달린 사진들을 프로그램에게 학습시킵니다.<br/>
+정답이 달린 사진들을 프로그램에게 학습시킵니다. 
 강아지 사진을 보여주고 “이건 강아지야.”라고 알려주고, 다음 고양이 사진을 보여주고 “이건 고양이야”라고 알려주는 식으로 학습이 진행됩니다. 
 이 과정에서, 프로그램은 ‘대강 이렇게 생긴 사진을 강아지/고양이라고 하는구나.’를 학습합니다.<br/>
 
@@ -175,7 +175,7 @@ N차원 공간상에서의 거리를 구하듯, Vector Component들의 차이의
 
 **K-Nearest Neighbor Algorithm**은 위의 Nearest Neighbor Algorithm의 변형입니다.<br/>
 
-NN은 가장 Distance가 작은 Data 1개를 고르는 반면, K-NN은 Distance가 작은 Data k개를 고릅니다.  
+NN은 가장 Distance가 작은 Data 1개를 고르는 반면, K-NN은 Distance가 작은 Data k개를 고릅니다. 
 그리고, 그 D개의 Data 중에서 과반수의 Label로 Prediction을 내립니다.<br>
 
 [[K-NN Demo](http://vision.stanford.edu/teaching/cs231n-demos/knn/)] 에서 K-NN Algorithm을 시각화한 결과물을 볼 수 있습니다.<br/>
@@ -198,7 +198,8 @@ NN은 가장 Distance가 작은 Data 1개를 고르는 반면, K-NN은 Distance�
 그렇기 때문에, Iris Classification에서 이 Model의 Prediction을 신뢰할 수 없습니다. 
 이 Model의 정확도가 100%라면 좋겠지만, 30%일 수도 있기 때문입니다.<br/>
 
-Iris Classification에 Real-world problem을 대입하여 생각해 보면 이 설명이 더 와닿을 것 같습니다. 
+Iris Classification에 Real-world problem을 대입하여 생각해 보면 이 설명이 더 와닿을 것 같습니다.<br/>
+
 메일링 서비스의 스팸 메일 분류기를 개발하는 부서에 있다고 상상해 봅시다. 
 몇달간의 개발로, 스팸 메일 분류기를 완성했습니다. 
 회사는 분류기를 100% 신뢰하기로 하고, 분류기를 바로 서비스에 적용했습니다. 
@@ -221,7 +222,7 @@ K-NN Algorithm으로 Model을 만들 때, 우리는 Model을 오로지 하나만
 
 아닙니다.<br/>
 
-Feature간의 Distance를 구할 때, L1 distance를 쓸 수도 있고, L2 distance를 쓸 수도 있습니다.  
+Feature간의 Distance를 구할 때, L1 distance를 쓸 수도 있고, L2 distance를 쓸 수도 있습니다. 
 또한, K를 3으로 설정할 수도 있고, 5로 설정할 수도 있습니다.<br/>
 
 이러한 선택들은 기계가 학습하기 이전에 사람이 결정해줘야 하는 것들입니다. 
@@ -252,7 +253,7 @@ Test set은 Model이 Unseen Data에 대해 얼마나 잘 작동하는가를 시�
 
 Model을 학습시키고, 최적의 Hyperparameter 조합을 찾고, 그 성능을 Test하려면, 전체 Dataset을 세 부분으로 나눠야 합니다.<br/>
 
-하지만, 현재 가지고 있는 Dataset이 너무 작다면 어떻게 해야 할까요?  
+하지만, 현재 가지고 있는 Dataset이 너무 작다면 어떻게 해야 할까요? 
 전체 Dataset을 나누다 보니 Training set과 Validation set이 고르게 나눠지지 않을 수도 있지 않을까요?<br/>
 
 이러한 경우, **(K-Fold) Cross-Validation** 기법을 사용하여, 작은 Dataset으로도 학습을 충분히 할 수 있도록 합니다.<br/><br/>
@@ -265,7 +266,7 @@ Model을 학습시키고, 최적의 Hyperparameter 조합을 찾고, 그 성능�
 
 ### 참고하면 좋은 자료
 
-Training Set, Test Set, Validation Set의 차이가 아직 명확하지 않으시다면, [[Machine Learning에서 validation set을 사용하는 이유](https://3months.tistory.com/118)]을 참고해 주세요!
+Training Set, Test Set, Validation Set의 차이가 아직 명확하지 않다면, [[Machine Learning에서 validation set을 사용하는 이유](https://3months.tistory.com/118)]을 참고해 주세요!
 
 <hr/>
 
@@ -277,7 +278,7 @@ Training Set, Test Set, Validation Set의 차이가 아직 명확하지 않으�
 
 하지만, 이 방법으로 좋은 Model이 얻어진다면, 9회차짜리 특강을 할 필요가 없었겠죠?<br/>
 
-사실 K-NN Algorithm은 Image Classification에 적용하기에 부적절할 뿐더러, 실제 사용하기도 비효율적이라는 문제가 있습니다.
+사실 K-NN Algorithm은 Image Classification에 적용하기에 부적절할 뿐더러, 실제 사용하기도 비효율적이라는 문제가 있습니다.<br/>
 
 우선, K-NN은 Image Classification Problem에 부적합합니다.<br/>
 
@@ -293,7 +294,7 @@ Iris Classification에서는, Data가 150개 정도 뿐이고, Feature도 4개 �
 우리가 Image Classification에서 다룰 CIFAR-10 Dataset에는 3072개 Feature를 가진 사진이 6만개가 있습니다. 
 이것들을 하나하나 비교하며 Test하기에는 무리가 있겠죠?<br/>
 
-우리가 실제로 ML을 적용할 때는, Training에는 많은 시간이 걸려도 크게 상관이 없습니다.  
+우리가 실제로 ML을 적용할 때는, Training에는 많은 시간이 걸려도 크게 상관이 없습니다. 
 하지만, Prediction을 내릴 때는 그 결과가 금방 나오기를 기대합니다.<br/>
 
 Facebook에서 얼굴 인식 알고리즘을 K-NN으로 구현했다고 상상해 봅시다. 
@@ -327,7 +328,7 @@ Iris Classification에서, Setosa 종의 꽃잎 길이가 다른 종에 비해 �
 
 Linear Classifier는 바로 이 **가중치**를 통해 데이터를 분류합니다.<br/>
 
-Linear Classifier는 Feature를 각 Label에 대한 점수로 Mapping합니다.  
+Linear Classifier는 Feature를 각 Label에 대한 점수로 Mapping합니다. 
 그 다음, 점수가 가장 높은 Label로 Prediction을 내리는데요, Mapping 과정에서 Parameter가 개입됩니다. 
 아까 이야기한 가중치가 숫자로 표현되어 Parameter가 되는데요, 아까 Setosa 예시를 이어서 보면, Setosa에 대한 점수를 계산할 때, 꽃잎 길이에 큰 수를 곱해서 점수를 계산하는 식으로 가중치가 반영됩니다.<br/><br/>
 
@@ -337,7 +338,7 @@ Linear Classifier는 Feature를 각 Label에 대한 점수로 Mapping합니다.
 
 이러한 계산들을 깔끔하게 식으로 정리하면, s = W * x가 되겠죠.<br/>
 
-W의 각 Row는, 각각의 Label에 대한 가중치 Parameter들이 됩니다.  
+W의 각 Row는, 각각의 Label에 대한 가중치 Parameter들이 됩니다. 
 이 Parameter W를 **Weight**라고 부르겠습니다.<br/>
 
 사실, Linear Classifier는 s = W * x + b로 점수를 계산하는데요, 여기서 더해진 b는 **Bias**라고 합니다. 
