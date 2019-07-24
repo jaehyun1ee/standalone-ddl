@@ -63,6 +63,8 @@ Supervised Learning의 경우, 정답을 기계에게 알려주며 학습시키�
 
 또한, Supervised Learning과 Unsupervised Learning은 다시, 학습의 결과가 Discrete한지, Continuous한지에 따라서 구분이 가능합니다.<br/>
 
+![Fields of ML](https://miro.medium.com/max/1030/1*zWBYt9DQQEf_XxXWLA2tzQ.jpeg)
+
 뒤의 예시를 보면 분과들의 차이가 더 분명히 이해될 것입니다.
 각각에 대해 더 설명하면,<br/><br/>
 
