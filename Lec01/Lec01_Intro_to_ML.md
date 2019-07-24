@@ -371,7 +371,7 @@ W * x + b = 0으로 두고 만든 Hyperplane을 보면, 각 Label을 분류해 �
 
 <hr/>
 
-## Preview on Next Lectures,
+## Preview on Next Lectures
 
 이로써, Linear Classifier가 무엇을 하는 Model인지 알아보았습니다.<br/>
 
