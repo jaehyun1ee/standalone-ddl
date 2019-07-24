@@ -65,10 +65,10 @@ Loss Function은 Linear Classifier를 통과해 나온 결과와, 정답을 비�
 
 Linear Classifier에 대한 기하적인 해석을 생각해 보면, Loss Function을 어떻게 정의하느냐에 따라, 우리가 원하는 최적의 Decision Hyperplane의 성질도 정해지는 것이 되겠죠!<br/>
 
-Classification에서 자주 쓰이는 Loss Function에는 다음 2가지가 있습니다.<br/>
+Classification에서 자주 쓰이는 Loss Function에는 다음 2가지가 있습니다.<br/><br/>
 
 **1. Multiclass SVM Loss**<br/><br/>
-**2. Cross-Entropy Loss**<br/>
+**2. Cross-Entropy Loss**<br/><br/>
 
 이제 각각에 대해 알아보도록 하겠습니다.
 
@@ -191,6 +191,8 @@ W1과 W2의 차이는, 점수를 계산할 때, W1은 첫 번째 Feature에만 �
 위의 예시처럼, Model이 Training Data에 과하게 맞춰지는 것을 **Overfitting** 현상이라고 합니다. 
 반대로, Training이 충분히 이뤄지지 않은 Model은 **Underfit**되었다고 합니다. 
 그래서 우리는 그 사이에서 Balance를 맞춰야 합니다. Underfit되지도 않고, Overfit되지도 않은 그 중간 지점에 Model이 가도록 해야 하죠!<br/>
+
+![Model Fit](https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile23.uf.tistory.com%2Fimage%2F234D1E4B57997CB12D58C9)
 
 항상 중간이 가장 어렵죠. 그래서 우리는 많은 시간을 균형 맞추기에 할애할 예정입니다.<br/>
 
