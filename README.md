@@ -54,3 +54,13 @@ Iris Classification with Linear Classifier (w/o Optimization) : [[skeleton](Lec0
 ###### :bar_chart: 사후 설문조사
 
 Lec02에 대한 피드백 설문조사입니다! : [[form](https://forms.gle/HxgZx8W2Cy9NUqNb6)]
+
+### Lec03 : Model Optimization
+
+###### :closed_book: 강의자료
+
+Model Optimization : [[slides](Lec03/Lec03_Model_Optimization_v2_upld.pdf)] [[gradient derivation](Lec03/Lec03_Model_Optimization_Deriving_Gradients.pdf)]
+
+###### :computer: 코딩실습
+
+Iris Classification with Linear Classifier (w/ Optimization) : [[skeleton](Lec03/Lec03_IrisClassification_sk.ipynb)]
