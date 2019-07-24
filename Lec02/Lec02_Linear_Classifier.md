@@ -72,7 +72,7 @@ Classification에서 자주 쓰이는 Loss Function에는 다음 2가지가 있�
 
 이제 각각에 대해 알아보도록 하겠습니다.
 
-> **Multiclass SVM Loss**
+### A. Multiclass SVM Loss
 
 Multiclass SVM Loss를 가장 잘 설명한 내용입니다.<br/>
 
@@ -100,7 +100,7 @@ Multiclass SVM Loss가 어떻게 Max-Margin Property로 이어지는지는 다�
 이에 대한 설명은 [[Support Vector Machines](cs229.stanford.edu/notes/cs229-notes3.pdf)]에서 찾아보실 수 있는데요, 최적화(OR)에 대한 배경지식이 있으시면 이해하실 수 있을 것 같습니다. 
 저도 아직 완벽히 이해하지는 못했지만, 아이디어 정도는 이해할 수 있었습니다.
 
-> **Cross-Entropy Loss**
+### B. Cross-Entropy Loss
 
 Cross-Entropy Loss는 앞서 설명한 Multiclass SVM Loss와는 다른 Approach를 취합니다. 
 이제, 점수에 대한 확률적인 해석이 들어가게 됩니다.<br/>
