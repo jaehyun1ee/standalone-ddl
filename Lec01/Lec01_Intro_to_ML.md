@@ -99,7 +99,7 @@ Supervised Learning의 경우, 정답을 기계에게 알려주며 학습시키�
 >> Continuous : **dimensionality reduction**
 
 이것 또한 학습 데이터로 정답이 없는 데이터가 주어집니다. 
-기계는 주어진 데이터에서 Feature(특징)들을 뽑아서 데이터의 특징을 보존하면서, 데이터의 차원을 줄여 줍니다.  
+기계는 주어진 데이터에서 Feature(특징)들을 뽑아서 데이터의 특징을 보존하면서, 데이터의 차원을 줄여 줍니다. 
 예로는, PCA(Principal Component Analysis, 주성분분석)과 AE(Autoencoder)가 있습니다.
 
 ### C. Narrow Down to Image Classification
@@ -139,13 +139,16 @@ Image Classification은 크게 두 단계로 나눌 수 있는데요,<br/>
 
 개념의 이해가 가장 중요하므로, 3회차까지는 Image Classification을 다루지 않고, **Iris Classification**을 다룰 것입니다.<br/>
 
+![Iris](https://miro.medium.com/max/1400/1*7bnLKsChXq94QjtAiRn40w.png)
+![Iris Dataset](https://i.imgur.com/u0sIGlX.jpg)
+
 Iris는 붓꽃인데요, 붓꽃에는 Setosa, Versicolor, Virginica의 세 종이 있습니다. 
 이 세 종의 붓꽃들에 대해, 꽃잎의 길이와 너비, 그리고 꽃받침의 길이와 너비를 조사해 만든 Iris Dataset이 준비되어 있습니다.<br/>
 
 Dataset의 A열이 관측 번호이고, B ~ E열이 꽃잎과 꽃받침의 길이와 너비 정보입니다. 
-이들을 꽃의 특성, 즉 **feature**라 부르겠습니다.<br/>
+이들을 꽃의 특성, 즉 **Feature**라 부르겠습니다.<br/>
 
-F열은 해당 꽃의 종인데요, 각 특징에 대한 정답이므로, **label**이라 부르겠습니다.<br/>
+F열은 해당 꽃의 종인데요, 각 특징에 대한 정답이므로, **Label**이라 부르겠습니다.<br/>
 
 우리의 목표는, 주어진 학습 Dataset(Feature와 Label들)을 통해 Model을 학습시켜, 새로운 Input Feature에 대해 Label을 예측하는 것입니다.
 
@@ -249,6 +252,8 @@ Test set은 Model이 Unseen Data에 대해 얼마나 잘 작동하는가를 시�
 
 이 문제를 해결하기 위해, 우리는 주어진 Dataset을 Training set, Validation set, Test set의 총 3개의 부분으로 나눕니다.<br/><br/>
 
+![Train/Val/Test](https://miro.medium.com/max/1400/1*Nv2NNALuokZEcV6hYEHdGA.png)
+
 1. Training set으로 다양한 Model들을 각각 학습시킨 후,<br/><br/>
 2. Validation set에서의 정확도가 가장 높은 Model을 선택합니다.<br/><br/>
 3. 그리고, Test set으로 선택된 Model의 Unseen Data에 대한 정확도를 계산하는 거죠!
@@ -261,6 +266,8 @@ Model을 학습시키고, 최적의 Hyperparameter 조합을 찾고, 그 성능�
 전체 Dataset을 나누다 보니 Training set과 Validation set이 고르게 나눠지지 않을 수도 있지 않을까요?<br/>
 
 이러한 경우, **(K-Fold) Cross-Validation** 기법을 사용하여, 작은 Dataset으로도 학습을 충분히 할 수 있도록 합니다.<br/><br/>
+
+![Cross-Validation](https://i.imgur.com/CnP1Ijh.jpg)
 
 1. 전체 Dataset에서 먼저 Test set을 골라 제외해 줍니다.<br/><br/>
 2. 그 다음, 남은 Dataset을 총 K개의 fold(조각)으로 나누어 줍니다.<br/><br/> 
@@ -332,6 +339,8 @@ Iris Classification에서, Setosa 종의 꽃잎 길이가 다른 종에 비해 �
 
 Linear Classifier는 바로 이 **가중치**를 통해 데이터를 분류합니다.<br/>
 
+![Linear Classifier](https://i.imgur.com/IVjYzPy.jpg)
+
 Linear Classifier는 Feature를 각 Label에 대한 점수로 Mapping합니다. 
 그 다음, 점수가 가장 높은 Label로 Prediction을 내리는데요, Mapping 과정에서 Parameter가 개입됩니다. 
 아까 이야기한 가중치가 숫자로 표현되어 Parameter가 되는데요, 아까 Setosa 예시를 이어서 보면, Setosa에 대한 점수를 계산할 때, 꽃잎 길이에 큰 수를 곱해서 점수를 계산하는 식으로 가중치가 반영됩니다.<br/><br/>
@@ -355,11 +364,15 @@ Bias가 갑자기 왜 더해졌는지는 뒤에서 설명하겠습니다.<br/><b
 먼저, 각 Data를 기하적으로 보면, Iris Classification problem에서 각 Data는 4차원 공간상의 한 점입니다. 
 그리고, 이 점들을 Label에 따라 색칠을 해서 보면, 같은 Label들은 비슷한 위치에 분포되어 있음을 볼 수 있습니다.<br/>
 
+![Geometry_Iris](https://i.imgur.com/AwEvXFu.jpg)
+
 이들을 분류하는 것이 Linear Classifier의 목표인데요, Linear Classifier는 이들을 **Decision Hyperplane**으로 구분합니다.<br/>
 
 W * x + b의 각 Row를 기하적으로 보면, W의 Row가 법선벡터이고, 원점에서 b의 Component정도만큼 떨어져 있는 Hyperplane입니다.<br/>
 
 W * x + b = 0으로 두고 만든 Hyperplane을 보면, 각 Label을 분류해 주는 Decision Hyperplane이 된다는 것을 관찰할 수 있습니다.<br/>
+
+![Geometry_Iris](https://i.imgur.com/LmLaNP0.jpg)
 
 그러면, Bias가 왜 필요한지도 유추하실 수 있을텐데요, Bias가 없었다면, Decision Hyperplane들이 모두 원점을 지나야 할 것입니다. 
 그러면, 공간상의 Label들을 잘 구분하지 못할 것입니다. 따라서, Hyperplane들을 띄워 주기 위해 Bias가 추가되었다고 볼 수 있습니다.<br/>
