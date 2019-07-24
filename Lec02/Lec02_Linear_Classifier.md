@@ -51,6 +51,8 @@ Training을 할 때, Training Dataset에 대해, 현재 Parameter의 부정확�
 
 이때, Data 1개에 대해 Loss를 계산하는 함수를 **Loss Function**이라 부르겠습니다.
 
+<hr/>
+
 ## Loss Function
 
 Loss Function은 Linear Classifier를 통과해 나온 결과와, 정답을 비교하여 틀린 정도를 숫자로 반환해 줍니다.<br/>
@@ -140,6 +142,8 @@ Cross-Entropy Loss에서 나오는 MLE 개념은 더이상 자세하게 다루�
 Multiclass SVM Loss가 잘 먹히는 상황이 있는 반면, Cross-Entropy Loss가 잘 먹히는 상황도 있습니다. 
 뭐가 적합한지는 **Validation**을 통해서 찾아 주면 되는거죠!
 
+<hr/>
+
 ## Regularization
 
 이제 Loss 계산 식을 다시 볼까요?<br/>
@@ -193,6 +197,8 @@ W1과 W2의 차이는, 점수를 계산할 때, W1은 첫 번째 Feature에만 �
 그 균형 맞추기의 일환으로 Regularization Term이 붙은거죠! 
 다시 W1, W2 예시로 돌아가면, L2 Regularizer는 더 고르게 Spread-Out된 Weight를 Favor함으로써, 특정 Input Dimension이 점수에 대해 너무 많은 영향을 미치는 것을 방지합니다. 
 따라서, Overfitting을 방지하고 있다고 할 수 있는거죠.
+
+<hr/>
 
 ## Review on Today’s Lecture
 
