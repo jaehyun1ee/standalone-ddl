@@ -61,7 +61,7 @@ Lec02에 대한 피드백 설문조사입니다! : [[form](https://forms.gle/Hxg
 
 ###### :closed_book: 강의자료
 
-Model Optimization : [[slides](Lec03/Lec03_Model_Optimization_v2_upld.pdf)] [[gradient derivation](Lec03/Lec03_Model_Optimization_Deriving_Gradients.pdf)] [[lecture in text_이미지는 업로드 예정입니다](Lec03/Lec03_Model_Optimization.md)]
+Model Optimization : [[slides](Lec03/Lec03_Model_Optimization_v2_upld.pdf)] [[gradient derivation](Lec03/Lec03_Model_Optimization_Deriving_Gradients.pdf)] [[lecture in text](Lec03/Lec03_Model_Optimization.md)](_이미지는 업로드 예정입니다!_)
 
 ###### :computer: 코딩실습
 
