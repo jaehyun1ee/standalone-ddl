@@ -57,6 +57,8 @@ Lec02에 대한 피드백 설문조사입니다! : [[form](https://forms.gle/Hxg
 
 ### Lec03 : Model Optimization
 
+2019/07/25(목) 14:00 ~ 17:00 E9 3층 IR Studio
+
 ###### :closed_book: 강의자료
 
 Model Optimization : [[slides](Lec03/Lec03_Model_Optimization_v2_upld.pdf)] [[gradient derivation](Lec03/Lec03_Model_Optimization_Deriving_Gradients.pdf)]
