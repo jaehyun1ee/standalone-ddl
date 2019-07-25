@@ -67,4 +67,4 @@ Iris Classification with Linear Classifier (w/ Optimization) : [[skeleton](Lec03
 
 ###### :bar_chart: 사후 설문조사
 
-Lec03에 대한 사후 설문조사입니다! : [[form](https://docs.google.com/forms/d/1NEBFQUx_NgtroB0Iq1rf9PyMog9BpYZspUpY6vy01PU/edit)
+Lec03에 대한 사후 설문조사입니다! : [[form](https://docs.google.com/forms/d/1NEBFQUx_NgtroB0Iq1rf9PyMog9BpYZspUpY6vy01PU/edit)]
