@@ -63,7 +63,7 @@ Model Optimization : [[slides](Lec03/Lec03_Model_Optimization_v2_upld.pdf)] [[gr
 
 ###### :computer: 코딩실습
 
-Iris Classification with Linear Classifier (w/ Optimization) : [[skeleton](Lec03/Lec03_IrisClassification_sk.ipynb)]
+Iris Classification with Linear Classifier (w/ Optimization) : [[skeleton](Lec03/Lec03_IrisClassification_sk.ipynb)] [[full code](Lec03/Lec03_IrisClassification.ipynb)]
 
 ###### :bar_chart: 사후 설문조사
 
