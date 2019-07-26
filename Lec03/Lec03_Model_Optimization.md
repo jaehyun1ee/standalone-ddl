@@ -48,9 +48,11 @@ Parameter W와 b의 값을 어떻게 바꿔주어야 할까요?<br/>
 
 다음에 취할 수 있는 방법은, 수학적인 분석을 적용하는 것입니다.<br/>
 
-Loss를 계산하는 방법을 다시 볼까요?<br/>
+Loss를 계산하는 방법을 다시 볼까요?<br/><br/>
 
 ![Loss](https://latex.codecogs.com/gif.latex?L_i%20%3D%20%5Cfrac%7B1%7D%7BN%7D%20%5Csum_%7Bi%7D%5E%7BN%7DL_i%28Wx_i%20&plus;%20b%2C%20y_i%29%20&plus;%20%5Clambda%20R%28W%29)
+
+<br/>
 
 이 수식은 결국 Input으로 들어온 Dataset {(x, y})와 Parameter W, b에 대해, Loss라는 Scalar Output을 계산하는 것입니다. 
 그러면, W와 b에 대한 함수라고 해석할 수 있는거죠.<br/>
@@ -74,9 +76,11 @@ W가 행렬, b가 벡터여서 상상이 잘 안될 것 같네요.
 여기서는, 현재 위치에서 계산한 그래프의 기울기 방향을 보고 굴러 떨어지면 되겠죠? 
 기울기, 혹은 미분계수가 양수가 나오면, 음의 방향으로 W를 Update시켜 주면 L의 크기가 작아집니다. 
 반대로, 기울기가 음수가 나오면, 양의 방향으로 W를 Update시켜 주면 L의 크기가 작아집니다. 
-수식으로 나타내면,<br/>
+수식으로 나타내면,<br/><br/>
 
 ![Update W_Simple](https://latex.codecogs.com/gif.latex?W_%7Bnew%7D%20%3D%20W_%7Bold%7D%20-%20%5Cfrac%7B%5Cmathrm%7Bd%7D%20L%7D%7B%5Cmathrm%7Bd%7D%20W%7D%7C_%7BW%20%3D%20W_%7Bold%7D%7D)
+
+<br/>
 
 입니다.<br/>
 
@@ -93,12 +97,14 @@ W가 행렬, b가 벡터여서 상상이 잘 안될 것 같네요.
 
 각각의 변수에 대해 편미분을 해 주면 되겠죠? 
 그러면 - dL / dW는, b가 Constant라 가정하고, L이 작아지는 W의 Update 방향을 나타낼 것이고, - dL / db는, W가 Constant라 가정하고, L이 작아지는 b의 Update 방향을 나타낼 것입니다. 
-그 다음, W와 b를 각자의 편미분 결과를 가지고 Update시켜주면 되겠습니다.<br/>
+그 다음, W와 b를 각자의 편미분 결과를 가지고 Update시켜주면 되겠습니다.<br/><br/>
 
 ![Update W](https://latex.codecogs.com/gif.latex?W_%7Bnew%7D%20%3D%20W_%7Bold%7D%20-%20%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20W%7D%7C_%7BW%20%3D%20W_%7Bold%7D%7D)
 ![Update b](https://latex.codecogs.com/gif.latex?b_%7Bnew%7D%20%3D%20b_%7Bold%7D%20-%20%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20b%7D%7C_%7Bb%20%3D%20b_%7Bold%7D%7D)
 
-이러한 과정을 Gradient의 방향으로 Parameter를 Update시켜주어 Loss 그래프를 따라 내려간다 하여, **Gradient Descent(경사하강법)**라고 부릅니다.<br/>
+<br/>
+
+이러한 과정을 Gradient의 방향으로 Parameter를 Update시켜주어 Loss 그래프를 따라 내려간다 하여, **Gradient Descent(경사하강법)** 라고 부릅니다.<br/>
 
 사실, Parameter W와 b는 Scalar가 아니죠? 
 지금까지는 이해의 편의를 위해 Scalar라고 가정했을 뿐입니다. 
@@ -111,10 +117,12 @@ Iris Classification에서, W는 3 x 4 행렬이었습니다.
 Entry가 총 12개 있는 행렬이죠. 
 그러면, W의 Entry 12개에 대해서 그려진, Loss 그래프를 상상하실 수 있으신가요? 
 여기서도, 각각의 Entry에 대해, L을 편미분하여 각각을 Update시켜 주면 되겠습니다. 
-모든 Entry를 Update시키는 과정을,<br/>
+모든 Entry를 Update시키는 과정을,<br/><br/>
 
 ![Gradient Descent W](https://latex.codecogs.com/gif.latex?W_%7Bnew%7D%20%3D%20W_%7Bold%7D%20-%20%5Cbigtriangledown%20L_W%7C_%7BW%20%3D%20W_%7Bold%7D%7D)
 ![Gradient Descent b](https://latex.codecogs.com/gif.latex?b_%7Bnew%7D%20%3D%20b_%7Bold%7D%20-%20%5Cbigtriangledown%20L_b%7C_%7Bb%20%3D%20b_%7Bold%7D%7D)
+
+<br/>
 
 라 정리하여 표현할 수 있는데요, Del L_w는, L을 W의 Entry들로 각각 편미분한 결과가 들어가는 행렬입니다. 
 이러한 행렬을 **Gradient**라 하겠습니다.<br/>
@@ -133,17 +141,21 @@ Loss는 꽤나 복잡한 수식으로 계산한 결과이기 때문입니다. �
 첫번째 Approach는, 미분의 정의를 활용하는 것입니다.<br/>
 
 고등학교 때 배운 f'(x)의 미분계수의 정의를 살펴볼까요? 
-h가 0에 가까워질 때,<br/>
+h가 0에 가까워질 때,<br/><br/>
 
 ![Derivative Def](https://latex.codecogs.com/gif.latex?f%27%28x%29%20%3D%20%5Clim_%7Bh%20%5Crightarrow%200%7D%5Cfrac%7Bf%28x%20&plus;%20h%29%20-%20f%28x%29%7D%7Bh%7D)
 
+<br/>
+
 의 값을 미분계수라고 합니다.<br/>
 
-Loss L과 Parameter W의 첫번째 Entry W_00에 대해 다시 쓰면,<br/>
+Loss L과 Parameter W의 첫번째 Entry W_00에 대해 다시 쓰면,<br/><br/>
 
 ![Derivative Def W](https://latex.codecogs.com/gif.latex?L%27%28W_%7B00%7D%29%20%3D%20%5Clim_%7Bh%20%5Crightarrow%200%7D%5Cfrac%7BL%28W_%7B00%7D%20&plus;%20h%29%20-%20L%28W_%7B00%7D%29%7D%7Bh%7D)
 
-입니다.
+<br/>
+
+입니다.<br/>
 
 따라서, 이 h에 0.00001같은 작은 수를 대입해 값을 계산해 냅니다. 
 이렇게 얻은 편미분 값들로 얻은 Gradient를, **Numeric Gradient**라고 합니다.<br/>
@@ -168,9 +180,11 @@ Iris Classification의 경우, W 행렬의 12개 값과, b 벡터의 3개의 값
 
 그런데, Loss를 구하는 복잡한 과정을 어떻게 편미분할 수 있을까요?<br/>
 
-우리가 계속 다루고 있는 Loss는, 아래의 형태입니다.
+우리가 계속 다루고 있는 Loss는, 아래의 형태입니다.<br/><br/>
 
 ![Loss](https://latex.codecogs.com/gif.latex?L_i%20%3D%20%5Cfrac%7B1%7D%7BN%7D%20%5Csum_%7Bi%7D%5E%7BN%7DL_i%28Wx_i%20&plus;%20b%2C%20y_i%29%20&plus;%20%5Clambda%20R%28W%29)
+
+<br/>
 
 지금 Loss의 도함수는 구하기 조금 귀찮을 뿐이지, 구할 수는 있을것 같다고요? 
 그럴 수도 있겠네요. 
@@ -196,7 +210,7 @@ Training Set의 크기가 60000이라면, Training의 Iteration마다 60000개�
 
 이러한 계산량을 줄이기 위해, 우리는 Training의 매 Iteration에서 Training Set에서 일부를 Sampling해서 Mini Batch를 구성합니다. 
 그리고, 그 Batch에 대한 Loss를 계산하여 Parameter를 Update시켜 줍니다. 
-Training Set 전부를 사용하지 않고, 그 일부인 Mini Batch를 이용하여 전체 Loss를 근사하고 있으므로, 이것을 **SGD(Stochastic Gradient Descent, 확률적 경사하강법)** 이라고 부릅니다. 아래 수식에서 N이 Mini Batch의 크기가 되는 것이죠!
+Training Set 전부를 사용하지 않고, 그 일부인 Mini Batch를 이용하여 전체 Loss를 근사하고 있으므로, 이것을 **SGD(Stochastic Gradient Descent, 확률적 경사하강법)** 이라고 부릅니다. 아래 수식에서 N이 Mini Batch의 크기가 되는 것이죠!<br/><br/>
 
 ![Loss](https://latex.codecogs.com/gif.latex?L_i%20%3D%20%5Cfrac%7B1%7D%7BN%7D%20%5Csum_%7Bi%7D%5E%7BN%7DL_i%28Wx_i%20&plus;%20b%2C%20y_i%29%20&plus;%20%5Clambda%20R%28W%29)
 
@@ -216,13 +230,18 @@ Backpropagation을 간략히 설명하자면, 다음과 같습니다.<br/>
 고등학교 수학으로 돌아가, exp(cosx)를 어떻게 미분하는지를 생각해 볼까요?<br/>
 
 f(x) = exp(x), g(x) = cosx, h(x) = f(g(x))라고 합시다. 
-그러면,<br/>
+그러면,<br/><br/>
 
 ![Chain Rule Ex](https://latex.codecogs.com/gif.latex?h%27%28x%29%20%3D%20g%27%28x%29f%27%28g%28x%29%29%20%3D%20-%20%5Csin%20x%20%5Ctimes%20%5Cexp%20x)
 
-와 같이 합성함수 미분법을 적용할 수 있었죠?<br/>
+<br/>
+
+와 같이 합성함수 미분법을 적용할 수 있었죠? 
+이는,<br/><br/>
 
 ![Chain Rule Ex](https://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%20h%7D%7B%5Cmathrm%7Bd%7D%20x%7D%20%3D%20%5Cfrac%7B%5Cmathrm%7Bd%7D%20h%7D%7B%5Cmathrm%7Bd%7D%20g%7D%20%5Ctimes%20%5Cfrac%7B%5Cmathrm%7Bd%7D%20g%7D%7B%5Cmathrm%7Bd%7D%20x%7D)
+
+<br/>
 
 를 계산한 것인데요, 이것을 **Chain Rule**이라고 합니다.<br/>
 
