@@ -50,7 +50,7 @@ Parameter W와 b의 값을 어떻게 바꿔주어야 할까요?<br/>
 
 Loss를 계산하는 방법을 다시 볼까요?<br/>
 
-![Loss](*)
+![Loss](https://latex.codecogs.com/gif.latex?L_i%20%3D%20%5Cfrac%7B1%7D%7BN%7D%20%5Csum_%7Bi%7D%5E%7BN%7DL_i%28Wx_i%20&plus;%20b%2C%20y_i%29%20&plus;%20%5Clambda%20R%28W%29)
 
 이 수식은 결국 Input으로 들어온 Dataset {(x, y})와 Parameter W, b에 대해, Loss라는 Scalar Output을 계산하는 것입니다. 
 그러면, W와 b에 대한 함수라고 해석할 수 있는거죠.<br/>
