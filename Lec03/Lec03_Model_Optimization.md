@@ -100,6 +100,9 @@ W가 행렬, b가 벡터여서 상상이 잘 안될 것 같네요.
 그 다음, W와 b를 각자의 편미분 결과를 가지고 Update시켜주면 되겠습니다.<br/><br/>
 
 ![Update W](https://latex.codecogs.com/gif.latex?W_%7Bnew%7D%20%3D%20W_%7Bold%7D%20-%20%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20W%7D%7C_%7BW%20%3D%20W_%7Bold%7D%7D)
+
+<br/>
+
 ![Update b](https://latex.codecogs.com/gif.latex?b_%7Bnew%7D%20%3D%20b_%7Bold%7D%20-%20%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20b%7D%7C_%7Bb%20%3D%20b_%7Bold%7D%7D)
 
 <br/>
@@ -120,6 +123,9 @@ Entry가 총 12개 있는 행렬이죠.
 모든 Entry를 Update시키는 과정을,<br/><br/>
 
 ![Gradient Descent W](https://latex.codecogs.com/gif.latex?W_%7Bnew%7D%20%3D%20W_%7Bold%7D%20-%20%5Cbigtriangledown%20L_W%7C_%7BW%20%3D%20W_%7Bold%7D%7D)
+
+<br/>
+
 ![Gradient Descent b](https://latex.codecogs.com/gif.latex?b_%7Bnew%7D%20%3D%20b_%7Bold%7D%20-%20%5Cbigtriangledown%20L_b%7C_%7Bb%20%3D%20b_%7Bold%7D%7D)
 
 <br/>
