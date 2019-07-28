@@ -31,7 +31,7 @@ Model Optimization을 하기 위해, 우리는 두 가지 질문들을 답해야
 
 <hr/>
 
-## Loss
+## 1. Loss
 
 Model Optimization은 다음과 같은 과정으로 진행됩니다.<br/>
 
@@ -53,7 +53,7 @@ Training을 할 때, Training Dataset에 대해, 현재 Parameter의 부정확�
 
 <hr/>
 
-## Loss Function
+## 2. Loss Function
 
 Loss Function은 Linear Classifier를 통과해 나온 결과와, 정답을 비교하여 틀린 정도를 숫자로 반환해 줍니다.<br/>
 
@@ -144,7 +144,7 @@ Multiclass SVM Loss가 잘 먹히는 상황이 있는 반면, Cross-Entropy Loss
 
 <hr/>
 
-## Regularization
+## 3. Regularization
 
 이제 Loss 계산 식을 다시 볼까요?<br/>
 
