@@ -70,3 +70,15 @@ Iris Classification with Linear Classifier (w/ Optimization) : [[skeleton](Lec03
 ###### :bar_chart: 사후 설문조사
 
 Lec03에 대한 사후 설문조사입니다! : [[form](https://docs.google.com/forms/d/1NEBFQUx_NgtroB0Iq1rf9PyMog9BpYZspUpY6vy01PU/edit)]
+
+### Lec04 : Neural Network Basics
+
+2019/07/29(월) 14:00 ~ 17:00 E9 3층 IR Studio
+
+###### :closed_book: 강의자료
+
+Neural Network Basics : [[slides](Lec04/Lec04_Neural_Network_Basics_v2_upld.pdf)]
+
+###### :computer: 코딩실습
+
+MNIST Classification with MLP : [[skeleton](Lec04/Lec04_Keras_Tutorial.ipynb)]
