@@ -61,7 +61,7 @@ Lec02에 대한 피드백 설문조사입니다! : [[form](https://forms.gle/Hxg
 
 ###### :closed_book: Lecture
 
-Model Optimization : [[slides](Lec03/Lec03_Model_Optimization_v2_upld.pdf)] [[gradient derivation](Lec03/Lec03_Model_Optimization_Deriving_Gradients.pdf)] [[lecture in text](Lec03/Lec03_Model_Optimization.md)](_이미지는 업로드 예정입니다!_) [_lecture video_](*)]
+Model Optimization : [[slides](Lec03/Lec03_Model_Optimization_v2_upld.pdf)] [[gradient derivation](Lec03/Lec03_Model_Optimization_Deriving_Gradients.pdf)] [[lecture in text](Lec03/Lec03_Model_Optimization.md)](_이미지는 업로드 예정입니다!_) [[~~lecture video~~](*)]
 
 ###### :computer: Coding
 
@@ -77,7 +77,7 @@ Lec03에 대한 사후 설문조사입니다! : [[form](https://docs.google.com/
 
 ###### :closed_book: Lecture
 
-Neural Network Basics : [[slides](Lec04/Lec04_Neural_Network_Basics_v2_upld.pdf)] [[lecture in text](Lec04/Lec04_Neural_Network_Basics.md)] [_lecture video_](*)]
+Neural Network Basics : [[slides](Lec04/Lec04_Neural_Network_Basics_v2_upld.pdf)] [[lecture in text](Lec04/Lec04_Neural_Network_Basics.md)] [[~~lecture video~~](*)]
 
 ###### :computer: Coding
 
