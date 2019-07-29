@@ -216,7 +216,7 @@ Iris Classification에 Real-world problem을 대입하여 생각해 보면 이 �
 
 그렇기 때문에, 우리는 우리가 만든 Model이 실제로 Prediction에 사용될 때, 어느 정도의 정확도를 갖는지 Test할 필요가 있습니다.<br/>
 
-따라서, 우리는 주어진 Dataset을 Training set과, Test set으로 구분합니다.<br/><br/>
+따라서, 우리는 주어진 Dataset을 Training set과, Test set으로 구분합니다.<br/>
 
 ```
 1. Training set으로는 Model을 학습시키고,
