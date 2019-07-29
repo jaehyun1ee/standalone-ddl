@@ -173,9 +173,13 @@ XOR Gate에서, Classifier 1, Classifier 2에 대해 먼저 분류를 하여 Lin
 
 정리하면 각각의 영역에서 일어나는 일은,<br/>
 
-1. Input들에 가중치를 곱한 값들을 받아서,<br/><br/>
-2. 그들의 Linear Combination을 취한 뒤,<br/><br/>
-3. 특정 함수(여기서는 h)를 통과시켜 다음 Node의 Input이 됨<br/>
+```
+1. Input들에 가중치를 곱한 값들을 받아서,
+
+2. 그들의 Linear Combination을 취한 뒤,
+
+3. 특정 함수(여기서는 h)를 통과시켜 다음 Node의 Input이 됨
+```
 
 입니다.<br/>
 
@@ -197,15 +201,23 @@ XOR Gate에서, Classifier 1, Classifier 2에 대해 먼저 분류를 하여 Lin
 위는 Neruon을 그린 그림입니다. 
 Neuron의 작동 방식은 아래와 같습니다.<br/>
 
-1. Dendrite로 신호를 수신하여, (자주 사용하는 Dendrite일수록 신호의 강도가 세짐)<br/><br/>
-2. Cell Body에서 신호들을 합치고,<br/><br/>
-3. 신호의 강도를 조절하여 Axon을 통해 신호를 내보냄<br/>
+```
+1. Dendrite로 신호를 수신하여, (자주 사용하는 Dendrite일수록 신호의 강도가 세짐)
+
+2. Cell Body에서 신호들을 합치고,
+
+3. 신호의 강도를 조절하여 Axon을 통해 신호를 내보냄
+```
 
 아까 살펴본 Perceptron의 작동 방식을 다시 볼까요?<br/>
 
-1. Input들에 가중치를 곱한 값들을 받아서,<br/><br/>
-2. 그들의 Linear Combination을 취한 뒤,<br/><br/>
-3. 특정 함수(여기서는 h)를 통과시켜 다음 Node의 Input이 됨<br/>
+```
+1. Input들에 가중치를 곱한 값들을 받아서,
+
+2. 그들의 Linear Combination을 취한 뒤,
+
+3. 특정 함수(여기서는 h)를 통과시켜 다음 Node의 Input이 됨
+```
 
 Perceptron이 Neuron을 모방한 것이라는 것이 분명하죠?<br/>
 
