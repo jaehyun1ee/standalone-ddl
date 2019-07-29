@@ -5,6 +5,8 @@
 3. MLP
 4. Limitations of MLP
 
+<hr/>
+
 ## From Last Lecture,
 
 지난 시간까지는, Linear Classifier를 통한 Iris Classification을 해봤습니다.<br/>
@@ -16,6 +18,8 @@
 
 하지만, 지난 강의를 마치며, Linear Classifier Model이 Image Classification에 있어서 좋은 Model은 아니라고 했었죠. 
 오늘 강의를 통해 Linear Classifier의 한계를 살펴보고, Multilayer Perceptron Model을 배우며 드디어 DL에 발을 들일 예정입니다!
+
+<hr/>
 
 ## 1. Limitation of Linear Classifier
 
@@ -145,6 +149,8 @@ Graph로 나타내면, 아래와 같습니다.<br/>
 
 그렇다면, 위에서 나온 Perceptron은 무엇일까요? 또, Neural이라는 말은 왜 붙는 것일까요?
 
+<hr/>
+
 ## 2. Perceptron
 
 ### A. Perceptron as a Linear Classifier
@@ -230,6 +236,8 @@ Perceptron이 Neuron을 모방한 것이라는 것이 분명하죠?<br/>
 Activation Function을 제거했더니, 하나의 Linear Classifier가 된 셈이죠. 
 Activation Function이 있어야, 다른 차원으로의 Mapping한 후에, Classification을 하는 것이 가능한 것입니다! 
 비선형 문제도 분류할 수 있는 능력을 주는 것이죠!
+
+<hr/>
 
 ## 3. MLP(Multilayer Perceptron)
 
@@ -367,6 +375,8 @@ Matrix나 Tensor를 Vector 하나로 편 다음, MLP의 Input으로 주는 것�
 라이브러리가 굉장히 잘 짜여 있어서, 코딩보다는 레고 조각 맞추기에 가까울 것 같습니다. 
 걱정 안하셔도 될 거에요!
 
+<hr/>
+
 ## 4. Limitations of MLP
 
 MLP Model의 아이디어와 Backpropagation의 아이디어가 제시된 것은 1980년대였습니다.<br/>
@@ -405,6 +415,8 @@ Gradient가 0이 되면 더이상 Update가 되지 않기 때문이죠.<br/>
 Local Mimima에서도 Gradient가 0이고, Saddle Point에서도 Gradient가 0입니다. 
 따라서, Loss의 Local Mimima 혹은 Saddle Point에 갇힐 수도 있는 것이죠. 
 이러한 문제들을 해결해야 합니다.<br/>
+
+<hr/>
 
 ## Preview on Next Lecture(s)
 
