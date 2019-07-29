@@ -81,7 +81,7 @@ Neural Network Basics : [[slides](Lec04/Lec04_Neural_Network_Basics_v2_upld.pdf)
 
 ###### :computer: Coding
 
-Keras Tutorial for MNIST Classification : [[tutorial](Lec04/Lec04_Keras_Tutorial.ipynb)]
+Keras Tutorial for MNIST Classification : [[tutorial](Lec04/Lec04_Keras_Tutorial.ipynb)]<br/>
 XOR Classification with MLP (optional) : [[full code](Lec04/Lec04_XOR_practice.ipynb)]
 
 ###### :bar_chart: Feedbacks
@@ -98,5 +98,5 @@ Convolutional Neural Network : [[slides](Lec05/Lec05_Convolutional_Neural_Networ
 
 ###### :computer: Coding
 
-CIFAR-10 Classification w/ Keras : [[full code](Lec05/Lec05_CIFAR_10.ipynb)]<br/>
+CIFAR-10 Classification w/ CNN : [[full code](Lec05/Lec05_CIFAR_10.ipynb)]<br/>
 Preprocessing EMNIST Data : [[skeleton](Lec05/Lec05_EMIST_Preprocess.ipynb)]
