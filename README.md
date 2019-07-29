@@ -65,7 +65,7 @@ Model Optimization : [[slides](Lec03/Lec03_Model_Optimization_v2_upld.pdf)] [[gr
 
 ###### :computer: 코딩실습
 
-Iris Classification with Linear Classifier (w/ Optimization) : [[skeleton](Lec03/Lec03_IrisClassification_sk.ipynb)] [[full code](Lec03/Lec03_IrisClassification.ipynb)]
+Iris Classification with Linear Classifier (w/ Optimization) : [[skeleton](Lec03/Lec03_IrisClassification_sk.ipynb)] [[full code](Lec03/Lec03_IrisClassification_v2.ipynb)]
 
 ###### :bar_chart: 사후 설문조사
 
@@ -81,4 +81,9 @@ Neural Network Basics : [[slides](Lec04/Lec04_Neural_Network_Basics_v2_upld.pdf)
 
 ###### :computer: 코딩실습
 
-MNIST Classification with MLP : [[skeleton](Lec04/Lec04_Keras_Tutorial.ipynb)]
+Keras Tutorial for MNIST Classification : [[tutorial](Lec04/Lec04_Keras_Tutorial.ipynb)]
+XOR Classification with MLP (optional) : [[full code](Lec04/Lec04_XOR_practice.ipynb)]
+
+###### :bar_chart: 사후 설문조사
+
+Lec04에 대한 사후 설문조사입니다! : [[form](https://forms.gle/jpwUvFUKshhSy61Q9)]
