@@ -145,7 +145,7 @@ Graph로 나타내면, 아래와 같습니다.<br/>
 
 수식으로 옮기면, h(x) = 1 if x > 0, -1 otherwise라 한다면, 우리의 분류 함수는, f = h(W2 * h(W1 * x + b1) + b2)입니다.<br/>
 
-두개의 Linear Classifier가 중첩된 형태인데요, 이것을 우리는 **MLP(Multilayer Perceptron, 다층 퍼셉트론)**, 혹은 **ANN(Artificial Neural Network, 인공신경망)**이라고 부릅니다.<br/>
+두개의 Linear Classifier가 중첩된 형태인데요, 이것을 우리는 **MLP(Multilayer Perceptron, 다층 퍼셉트론)**, 혹은 **ANN(Artificial Neural Network, 인공신경망)** 이라고 부릅니다.<br/>
 
 그렇다면, 위에서 나온 Perceptron은 무엇일까요? 또, Neural이라는 말은 왜 붙는 것일까요?
 
@@ -175,7 +175,7 @@ XOR Gate에서, Classifier 1, Classifier 2에 대해 먼저 분류를 하여 Lin
 
 1. Input들에 가중치를 곱한 값들을 받아서,<br/><br/>
 2. 그들의 Linear Combination을 취한 뒤,<br/><br/>
-3. 특정 함수(여기서는 h)를 통과시켜 다음 Node의 Input이 됨<br/><br/>
+3. 특정 함수(여기서는 h)를 통과시켜 다음 Node의 Input이 됨<br/>
 
 입니다.<br/>
 
@@ -199,13 +199,13 @@ Neuron의 작동 방식은 아래와 같습니다.<br/>
 
 1. Dendrite로 신호를 수신하여, (자주 사용하는 Dendrite일수록 신호의 강도가 세짐)<br/><br/>
 2. Cell Body에서 신호들을 합치고,<br/><br/>
-3. 신호의 강도를 조절하여 Axon을 통해 신호를 내보냄<br/><br/>
+3. 신호의 강도를 조절하여 Axon을 통해 신호를 내보냄<br/>
 
 아까 살펴본 Perceptron의 작동 방식을 다시 볼까요?<br/>
 
 1. Input들에 가중치를 곱한 값들을 받아서,<br/><br/>
 2. 그들의 Linear Combination을 취한 뒤,<br/><br/>
-3. 특정 함수(여기서는 h)를 통과시켜 다음 Node의 Input이 됨<br/><br/>
+3. 특정 함수(여기서는 h)를 통과시켜 다음 Node의 Input이 됨<br/>
 
 Perceptron이 Neuron을 모방한 것이라는 것이 분명하죠?<br/>
 
