@@ -98,5 +98,5 @@ Convolutional Neural Network : [[slides](Lec05/Lec05_Convolutional_Neural Networ
 
 ###### :computer: Coding
 
-CIFAR-10 Classification w/ Keras : [[full code](Lec05/Lec05_CIFAR_10.ipynb)]
+CIFAR-10 Classification w/ Keras : [[full code](Lec05/Lec05_CIFAR_10.ipynb)]<br/>
 Preprocessing EMNIST Data : [[skeleton](Lec05/Lec05_EMIST_Preprocess.ipynb)]
