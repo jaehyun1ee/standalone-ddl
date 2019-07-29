@@ -91,3 +91,12 @@ Lec04에 대한 사후 설문조사입니다! : [[form](https://forms.gle/jpwUvF
 ### Lec05 : Convolutional Neural Network
 
 2019/07/30(화) 14:00 ~ 17:00 E9 3층 IR Studio
+
+###### :closed_book: Lecture
+
+Convolutional Neural Network : [[slides]()]
+
+###### :computer: Coding
+
+CIFAR-10 Classification w/ Keras : [[full code](Lec05/Lec05_CIFAR_10.ipynb)]
+Preprocessing EMNIST Data : [[skeleton](Lec05/Lec05_EMIST_Preprocess.ipynb)]
