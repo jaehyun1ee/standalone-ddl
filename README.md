@@ -77,7 +77,7 @@ Lec03에 대한 사후 설문조사입니다! : [[form](https://docs.google.com/
 
 ###### :closed_book: Lecture
 
-Neural Network Basics : [[slides](Lec04/Lec04_Neural_Network_Basics_v2_upld.pdf)] [[lecture in text](Lec04/Lec04_Neural_Network_Basics.md)] [[~~lecture video~~](*)]
+Neural Network Basics : [[slides](Lec04/Lec04_Neural_Network_Basics_v2_upld.pdf)] [[lecture in text](Lec04/Lec04_Neural_Network_Basics.md)](_이미지는 업로드 예정입니다!_) [[~~lecture video~~](*)]
 
 ###### :computer: Coding
 
@@ -94,7 +94,7 @@ Lec04에 대한 사후 설문조사입니다! : [[form](https://forms.gle/jpwUvF
 
 ###### :closed_book: Lecture
 
-Convolutional Neural Network : [[slides]()]
+Convolutional Neural Network : [[slides](Lec05/Lec05_Convolutional_Neural Network_v1_upld.pdf)]
 
 ###### :computer: Coding
 
