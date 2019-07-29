@@ -83,7 +83,7 @@ Decison Hyperplane이 x0 + x1 - 0.5 = 0이면, 분류가 가능합니다.<br/>
 
 Graph로 나타내면, 아래와 같습니다.<br/>
 
-![OR Graph[(*)
+![OR Graph](*)
 
 ### C. XOR Gate
 
