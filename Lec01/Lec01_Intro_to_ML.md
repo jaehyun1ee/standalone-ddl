@@ -218,8 +218,11 @@ Iris Classification에 Real-world problem을 대입하여 생각해 보면 이 �
 
 따라서, 우리는 주어진 Dataset을 Training set과, Test set으로 구분합니다.<br/><br/>
 
-1. Training set으로는 Model을 학습시키고,<br/><br/>
-2. Test set으로는 완성된 Model의 정확도를 측정합니다.<br/><br/>
+```
+1. Training set으로는 Model을 학습시키고,
+
+2. Test set으로는 완성된 Model의 정확도를 측정합니다.
+```
 
 다시 말하면, **Test set은 Model이 unseen data에 대해 얼마나 잘 작동하는가를 시험하기 위해 존재하는 거죠!**
 
@@ -254,9 +257,13 @@ Test set은 Model이 Unseen Data에 대해 얼마나 잘 작동하는가를 시�
 
 ![Train/Val/Test](https://miro.medium.com/max/1400/1*Nv2NNALuokZEcV6hYEHdGA.png)
 
-1. Training set으로 다양한 Model들을 각각 학습시킨 후,<br/><br/>
-2. Validation set에서의 정확도가 가장 높은 Model을 선택합니다.<br/><br/>
+```
+1. Training set으로 다양한 Model들을 각각 학습시킨 후,
+
+2. Validation set에서의 정확도가 가장 높은 Model을 선택합니다.
+
 3. 그리고, Test set으로 선택된 Model의 Unseen Data에 대한 정확도를 계산하는 거죠!
+```
 
 ### C. Cross-Validation
 
@@ -269,11 +276,17 @@ Model을 학습시키고, 최적의 Hyperparameter 조합을 찾고, 그 성능�
 
 ![Cross-Validation](https://i.imgur.com/CnP1Ijh.jpg)
 
-1. 전체 Dataset에서 먼저 Test set을 골라 제외해 줍니다.<br/><br/>
-2. 그 다음, 남은 Dataset을 총 K개의 fold(조각)으로 나누어 줍니다.<br/><br/> 
-3. 이제, K개의 fold중 1개가 Validation set, 나머지 (K - 1)개가 Training set을 수행하며, 학습이 이루어집니다.<br/>
-모든 fold가 Validation set의 역할을 수행할 수 있도록 총 K번 iterate시키며 학습이 진행되고, K번의 Validation에서의 평균으로 각 Model의 성능을 판단합니다.<br/><br/>
+```
+1. 전체 Dataset에서 먼저 Test set을 골라 제외해 줍니다.
+
+2. 그 다음, 남은 Dataset을 총 K개의 fold(조각)으로 나누어 줍니다.
+
+3. 이제, K개의 fold중 1개가 Validation set, 나머지 (K - 1)개가 Training set을 수행하며, 학습이 이루어집니다.
+모든 fold가 Validation set의 역할을 수행할 수 있도록 총 K번 iterate시키며 학습이 진행되고, 
+K번의 Validation에서의 평균으로 각 Model의 성능을 판단합니다.
+
 4. 그 다음, 원래 하던대로 Test set을 이용하여 unseen data에 대한 정확도를 측정하면 되겠습니다.
+```
 
 ### 참고하면 좋은 자료
 
