@@ -23,9 +23,9 @@ W와 b가 처음부터 분류를 잘하도록 설정이 된다면 좋겠지만, 
 
 Model Optimization을 하기 위해, 우리는 두 가지 질문들을 답해야 합니다.<br/>
 
-1. Parameter가 얼마나 부정확한지 확인할 수치적 척도인 Loss가 필요하다.<br/>
+**1. Parameter가 얼마나 부정확한지 확인할 수치적 척도인 Loss가 필요하다.**<br/>
 
-2. 1에서 구한 Loss를 바탕으로, Parameter를 실제로 Update하는 Algorithm이 필요하다.<br/>
+**2. 1에서 구한 Loss를 바탕으로, Parameter를 실제로 Update하는 Algorithm이 필요하다.**<br/>
 
 오늘 수업에서는, 첫 번째 질문에 답을 달아 보겠습니다.
 
@@ -35,11 +35,13 @@ Model Optimization을 하기 위해, 우리는 두 가지 질문들을 답해야
 
 Model Optimization은 다음과 같은 과정으로 진행됩니다.<br/>
 
-1. Training Set의 Data들을 Linear Classifier에 통과시켜서, 그 결과들을 정답과 비교.<br/>
+```
+1. Training Set의 Data들을 Linear Classifier에 통과시켜서, 그 결과들을 정답과 비교.
 
-2. 정답과 많이 다르다면, Parameter들의 값을 많이 바꿔줌. 정답과 차이가 거의 없다면, Parameter의 값을 조금씩만 바꿔줌. <br/>
+2. 정답과 많이 다르다면, Parameter들의 값을 많이 바꿔줌. 정답과 차이가 거의 없다면, Parameter의 값을 조금씩만 바꿔줌.
 
-3. 다시 1번으로.<br/>
+3. 다시 1번으로.
+```
 
 2번 과정에서 우리는 Parameter가 얼마나 부정확한지를 판단해야 합니다. 
 이때, ‘많이’, 혹은 ‘적게’는 명확한 표현이 아닙니다. 
