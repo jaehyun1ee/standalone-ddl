@@ -104,10 +104,10 @@ MLP를 어느정도 변형해 주어야 합니다.<br/>
 우리가 원하는 Model은, MLP보다 적은 Parameter를 쓰면서, Spatial Structure를 보존하는 Model입니다. 
 이러한 Model을 어떻게 만들 수 있을까요?<br/>
 
-:question: 지난 시간에 배운 Universal Approximation Theorem에 의하면, Hidden Layer 1개를 가진 MLP는 어떠한 함수도 근사할 수 있다고 하지 않았나요? 
+> :question: 지난 시간에 배운 Universal Approximation Theorem에 의하면, Hidden Layer 1개를 가진 MLP는 어떠한 함수도 근사할 수 있다고 하지 않았나요? 
 그러면, Image Classification도 MLP로 가능해야 하는 것 아닌가요?<br/>
 
-:point_right: “A feedforward network with a single layer is sufficient to represent any function, but thelayer may be infeasibly large and may fail to learn and generalize correctly.” 가 가장 좋은 대답인 것 같네요. 
+> :point_right: “A feedforward network with a single layer is sufficient to represent any function, but thelayer may be infeasibly large and may fail to learn and generalize correctly.” 가 가장 좋은 대답인 것 같네요. 
 Universal Approximation Theorem은 매우 강력한 정리이지만, 어디까지나 이론상 가능하다는 것을 증명한 것입니다. 
 이론적으로는, Image Classification도 가능하겠지만, 수많은 Parameter들을 실제로 Update시켜주기에는 무리가 있을 것입니다. 
 따라서, MLP에 변형을 가해 Image Classification을 실제로 잘 수행하는 Model을 만들고 싶은 것이죠!
@@ -234,9 +234,9 @@ Filter의 크기, Stride로 Output의 크기를 계산할 수 있는데요, 그 
 
 ![Stride](*)
 
-:question: Image가 정사각형이 아닌 직사각형 모양일 때는 어떻게 계산하나요? 또, Filter가 직사각형인 경우는 어떻게 계산하나요?<br/>
+> :question: Image가 정사각형이 아닌 직사각형 모양일 때는 어떻게 계산하나요? 또, Filter가 직사각형인 경우는 어떻게 계산하나요?<br/>
 
-:point_right: 위 식을 적절히 변형하면 계산할 수 있습니다. 
+> :point_right: 위 식을 적절히 변형하면 계산할 수 있습니다. 
 하지만, 우리는 CIFAR-10에서 정사각행렬 Data를 다루기 때문에 오늘 수업에서 사용될 Notation들은 모두 정사각행렬을 기초로 했다고 이해하시면 됩니다.
 
 > **Padding**
