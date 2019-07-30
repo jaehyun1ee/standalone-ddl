@@ -94,7 +94,7 @@ Lec04에 대한 사후 설문조사입니다! : [[form](https://forms.gle/jpwUvF
 
 #### :closed_book: Lecture
 
-Convolutional Neural Network : [[slides](Lec05/Lec05_Convolutional_Neural_Network_v2_upld.pdf)] [[~~lecture video~~](*)]
+Convolutional Neural Network : [[slides](Lec05/Lec05_Convolutional_Neural_Network_v2_upld.pdf)] [[lecture in text](Lec05/Lec05_Convolutional_Neural_Network.md)](_이미지는 업로드 예정입니다!_) [[~~lecture video~~](*)]
 
 #### :computer: Coding
 
