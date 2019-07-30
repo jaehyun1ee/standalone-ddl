@@ -107,7 +107,7 @@ MLP를 어느정도 변형해 주어야 합니다.<br/>
 > :question: 지난 시간에 배운 Universal Approximation Theorem에 의하면, Hidden Layer 1개를 가진 MLP는 어떠한 함수도 근사할 수 있다고 하지 않았나요? 
 그러면, Image Classification도 MLP로 가능해야 하는 것 아닌가요?<br/>
 
-> :point_right: “A feedforward network with a single layer is sufficient to represent any function, but thelayer may be infeasibly large and may fail to learn and generalize correctly.” 가 가장 좋은 대답인 것 같네요. 
+> :point_right: _“A feedforward network with a single layer is sufficient to represent any function, but thelayer may be infeasibly large and may fail to learn and generalize correctly.”_ 가 가장 좋은 대답인 것 같네요. 
 Universal Approximation Theorem은 매우 강력한 정리이지만, 어디까지나 이론상 가능하다는 것을 증명한 것입니다. 
 이론적으로는, Image Classification도 가능하겠지만, 수많은 Parameter들을 실제로 Update시켜주기에는 무리가 있을 것입니다. 
 따라서, MLP에 변형을 가해 Image Classification을 실제로 잘 수행하는 Model을 만들고 싶은 것이죠!
