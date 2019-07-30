@@ -22,20 +22,20 @@ Python 기초 강의입니다. 02장-01 ~ 04 / 03장-01 ~ 03 / 04장-01 을 보�
 
 2019/07/22(월) 14:00 ~ 17:00 W8 3층 세미나실
 
-###### :green_book: Pre-Lecture
+#### :green_book: Pre-Lecture
 
 Google Colab과 Python Numpy Library 사용법에 대한 Tutorial Code입니다. : [[tutorial](Lec01/Lec01_Colab_&_Numpy_Tutorial.ipynb)]
 
-###### :closed_book: Lecture
+#### :closed_book: Lecture
 
 Intro to ML : [[slides](Lec01/Lec01_Intro_to_ML_v3_upld.pdf)] [[lecture in text](Lec01/Lec01_Intro_to_ML.md)]
 
-###### :computer: Coding
+#### :computer: Coding
 
 Iris Classification with Nearest Neighbor Algorithm : [[skeleton](Lec01/Lec01_Nearest_Neighbor_sk.ipynb)] [[full code](Lec01/Lec01_Nearest_Neighbor.ipynb)]<br/>
 Iris Classification with K-Nearest Neighbor Algorithm (optional) : [[skeleton](Lec01/Lec01_K_Nearest_Neighbor_sk.ipynb)] [[full code](Lec01/Lec01_K_Nearest_Neighbor.ipynb)]
 
-###### :bar_chart: Feedbacks
+#### :bar_chart: Feedbacks
 
 Lec01에 대한 피드백 설문조사입니다! : [[form](https://forms.gle/tGXtwfH8TnxRLzxU9)]
 
@@ -43,15 +43,15 @@ Lec01에 대한 피드백 설문조사입니다! : [[form](https://forms.gle/tGX
 
 2019/07/23(화) 14:00 ~ 17:00 W8 3층 세미나실
 
-###### :closed_book: Lecture
+#### :closed_book: Lecture
 
 Linear Classifier : [[slides](Lec02/Lec02_Linear_Classifier_v2_upld.pdf)] [[lecture in text](Lec02/Lec02_Linear_Classifier.md)]
 
-###### :computer: Coding
+#### :computer: Coding
 
 Iris Classification with Linear Classifier (w/o Optimization) : [[skeleton](Lec02/Lec02_NoTrain_sk.ipynb)] [[full code](Lec02/Lec02_NoTrain_sklearn.ipynb)]
 
-###### :bar_chart: Feedbacks
+#### :bar_chart: Feedbacks
 
 Lec02에 대한 피드백 설문조사입니다! : [[form](https://forms.gle/HxgZx8W2Cy9NUqNb6)]
 
@@ -59,15 +59,15 @@ Lec02에 대한 피드백 설문조사입니다! : [[form](https://forms.gle/Hxg
 
 2019/07/25(목) 14:00 ~ 17:00 E9 3층 IR Studio
 
-###### :closed_book: Lecture
+#### :closed_book: Lecture
 
 Model Optimization : [[slides](Lec03/Lec03_Model_Optimization_v2_upld.pdf)] [[gradient derivation](Lec03/Lec03_Model_Optimization_Deriving_Gradients.pdf)] [[lecture in text](Lec03/Lec03_Model_Optimization.md)](_이미지는 업로드 예정입니다!_) [[~~lecture video~~](*)]
 
-###### :computer: Coding
+#### :computer: Coding
 
 Iris Classification with Linear Classifier (w/ Optimization) : [[skeleton](Lec03/Lec03_IrisClassification_sk.ipynb)] [[full code](Lec03/Lec03_IrisClassification_v2.ipynb)]
 
-###### :bar_chart: Feedbacks
+#### :bar_chart: Feedbacks
 
 Lec03에 대한 사후 설문조사입니다! : [[form](https://docs.google.com/forms/d/1NEBFQUx_NgtroB0Iq1rf9PyMog9BpYZspUpY6vy01PU/edit)]
 
@@ -75,16 +75,16 @@ Lec03에 대한 사후 설문조사입니다! : [[form](https://docs.google.com/
 
 2019/07/29(월) 14:00 ~ 17:00 E9 3층 IR Studio
 
-###### :closed_book: Lecture
+#### :closed_book: Lecture
 
 Neural Network Basics : [[slides](Lec04/Lec04_Neural_Network_Basics_v2_upld.pdf)] [[lecture in text](Lec04/Lec04_Neural_Network_Basics.md)](_이미지는 업로드 예정입니다!_) [[~~lecture video~~](*)]
 
-###### :computer: Coding
+#### :computer: Coding
 
 Keras Tutorial for MNIST Classification : [[tutorial](Lec04/Lec04_Keras_Tutorial.ipynb)]<br/>
 XOR Classification with MLP (optional) : [[full code](Lec04/Lec04_XOR_practice.ipynb)]
 
-###### :bar_chart: Feedbacks
+#### :bar_chart: Feedbacks
 
 Lec04에 대한 사후 설문조사입니다! : [[form](https://forms.gle/jpwUvFUKshhSy61Q9)]
 
@@ -92,15 +92,23 @@ Lec04에 대한 사후 설문조사입니다! : [[form](https://forms.gle/jpwUvF
 
 2019/07/30(화) 14:00 ~ 17:00 E9 3층 IR Studio
 
-###### :closed_book: Lecture
+#### :closed_book: Lecture
 
-Convolutional Neural Network : [[slides](Lec05/Lec05_Convolutional_Neural_Network_v1_upld.pdf)]
+Convolutional Neural Network : [[slides](Lec05/Lec05_Convolutional_Neural_Network_v2_upld.pdf)] [[~~lecture video~~](*)]
 
-###### :computer: Coding
+#### :computer: Coding
 
 CIFAR-10 Classification w/ CNN : [[full code](Lec05/Lec05_CIFAR_10.ipynb)]<br/>
 Preprocessing EMNIST Data : [[skeleton](Lec05/Lec05_EMIST_Preprocess.ipynb)]
 
-###### :bar_chart: Feedbacks
+#### :bar_chart: Feedbacks
 
 Lec05에 대한 사후 설문조사입니다! [[form](https://forms.gle/xsuAwgkwpXcTe7kdA)]
+
+### Lec06 : Training Neural Networks I
+
+2019/08/01(목) 14:00 ~ 17:00 E9 3층 IR Studio
+
+#### :closed_book: Lecture
+
+Training Neural Networks I : [[~~slides~~](*)]
