@@ -69,7 +69,7 @@ W가 행렬, b가 벡터여서 상상이 잘 안될 것 같네요.
 그러면, W와 b가 모두 Scalar라고 단순화하여 생각해 봅시다. 
 여기서 더 단순화해서, 적절한 b는 이미 찾았다고 가정하고, W에 대한 L의 그래프를 그려 봅시다.<br/>
 
-![Loss Graph_Simple](*)
+![Loss Graph_Simple](https://i.imgur.com/O3IrGIv.jpg)
 
 현재 위치에서 Loss의 Gloabal Minimum으로 굴러 떨어지고자 하는 것이 우리의 목표입니다.<br/>
 
@@ -197,7 +197,7 @@ Iris Classification의 경우, W 행렬의 12개 값과, b 벡터의 3개의 값
 하지만, 우리가 지금 다루고 있는 Linear Classifier는 아주 단순한 Model이라는 것을 상기해야 합니다. 
 앞으로 다룰 아래와 같은 Model들은 굉장히 복잡한 연산을 통해 Classification을 합니다.<br/>
 
-![MLP Architecture](*)
+![MLP Architecture](https://miro.medium.com/max/1200/1*N8UXaiUKWurFLdmEhEHiWg.jpeg)
 
 이러한 Model의 Loss의 도함수를 손으로 계산하는 것은 거의 불가능에 가까울 것입니다. 
 잠시 후, 이러한 복잡한 함수의 도함수 값을 계산하는 방법을 다루겠습니다.<br/>
@@ -280,7 +280,7 @@ Gradient를 구한 방법을 다시 보면, 전체 함수의 편미분값을 간
 
 이제, Node 하나에 초점을 맞춰서 관찰해 봅시다.<br/>
 
-![Node](*)
+![Node](https://i.imgur.com/IBasTqm.jpg)
 
 중간 Node에 x, y라는 input이 들어와서, q = x + y가 출력됩니다. 
 그리고, 그 값은 다시 다음 Node의 input으로 들어갑니다. 
@@ -354,6 +354,8 @@ General Jacobian은 Tensor가 되는 것이죠.
 시각화를 한다면, 직육면체를 생각하시면 될 것 같습니다. 
 z00을 y의 Entry들로 편미분한 것이 하나의 행렬이 되고, 그것을 확장하여 z의 첫 행을 y의 Entry들로 편미분해준 것은, 행렬들을 위로 쌓은 Cube가 되는 것이죠. 
 그것을 다시, z의 모든 행으로 확장한다면, Cube들을 쌓은 하나의 직육면체가 될 것입니다.<br/>
+
+![Tensor](https://miro.medium.com/max/898/1*kHues3bfBOythrXNLosesQ.png)
 
 사실, 이러한 Tensor가 어떻게 생겼는지 이해하는 것은 지금 단계에서는 중요하지 않습니다. 
 따라서, 그냥 ‘정보량이 많은 General Jacobian이 필요하구나’ 정도만 이해하셔도 충분합니다.<br/>
@@ -434,7 +436,7 @@ Matrix에 대한 Backpropagation을 자세히 정리해 놓은 자료는, [[Line
 
 더 자세한 Computational Graph는,
 
-![Loss Computational Graph_Detailed](*)
+![Loss Computational Graph_Detailed](https://i.imgur.com/xPtgwTH.jpg)
 
 입니다.<br/>
 
@@ -486,7 +488,7 @@ Linear Classifier를 만들고, Parameter들을 Update시켜 주었죠!<br/>
 하지만, Linear Classifier는 이미지 분류에 적합한 Model은 아닙니다. 
 이름에 그 태생적인 한계가 숨어 있는데요, Linearly Separable한 문제에 대해서만 분류가 가능하기 때문입니다.<br/>
 
-![Nonlinear Classification Problem](*)
+![Nonlinear Classification Problem](https://i.imgur.com/ZjVWr4S.jpg)
 
 가령, 위처럼 원형으로 분포된 데이터는 Decision Hyperplane으로 구분할 수 없겠죠?<br/>
 
