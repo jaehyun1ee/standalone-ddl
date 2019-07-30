@@ -74,7 +74,7 @@ Hyperparameter를 적절히 Tuning했다면, 더 좋은 결과가 나왔을 수�
 MLP 그 자체로는 Image Classification에 적합하지 않은 것 같죠? 
 그 이유는 다음과 같습니다.<br/>
 
-1. **Parameter가 너무 많다.** <br/>
+**1. Parameter가 너무 많다.** <br/>
 
 CIFAR-10은 3072개의 Input Feature를 다뤘었죠? 
 이것을 Perceptron P개짜리 Hidden Layer에 Mapping한 다음, 10개짜리 Output Layer로 보내려면, 총 3072 * P + P * 10개의 Parameter가 필요합니다. 
@@ -87,7 +87,7 @@ CIFAR-10은 3072개의 Input Feature를 다뤘었죠?
 제 아이패드의 크기가 2732 * 2048이니까요! 
 고해상도의 Real World Problem에 대해 MLP를 적용하려면, Parameter가 엄청나게 많이 필요하겠죠?<br/>
 
-2. **Image를 Flatten하며 Spatial Structure가 손실된다.** <br/>
+**2. Image를 Flatten하며 Spatial Structure가 손실된다.** <br/>
 
 우리가 사진을 볼 때는, Pixel 하나만을 보는 것이 아니라, Pixel 여러개가 뭉친 하나의 영역을 보고 판단을 내립니다. 
 비슷한 색깔의 Pixel들이 모여서 한 덩어리를 만들기 때문이죠. 
