@@ -24,9 +24,13 @@ Parameter가 부정확한 정도를 **Loss**라는 숫자로 나타내기로 했
 
 Model Optimization의 과정은 다음과 같다고 했는데요,<br/>
 
-1. Training Set의 Data들을 Linear Classifier에 통과시켜서, 그 결과들을 정답과 비교.<br/>
-2. 정답과 많이 다르다면, Parameter들의 값을 많이 바꿔줌. 정답과 차이가 거의 없다면, Parameter의 값을 조금씩만 바꿔줌.<br/>
-3. 다시 1번으로.<br/>
+```
+1. Training Set의 Data들을 Linear Classifier에 통과시켜서, 그 결과들을 정답과 비교.
+
+2. 정답과 많이 다르다면, Parameter들의 값을 많이 바꿔줌. 정답과 차이가 거의 없다면, Parameter의 값을 조금씩만 바꿔줌.
+
+3. 다시 1번으로.
+```
 
 우리는 지난 시간에 그 첫 과정을 끝마친 겁니다!<br/>
 
