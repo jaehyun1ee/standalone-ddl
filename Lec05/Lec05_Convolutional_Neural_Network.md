@@ -318,14 +318,16 @@ CNN이 MLP에 비해 Parameter의 개수가 더 적을까요?<br/>
 
 우리의 CNN Model을 따라가며 한번 계산해 보겠습니다.<br/>
 
-CONV1 : 32x32x3 —> 32x32x32 : Params = (5 * 5 * 3) * 32 = 2400
-POOL1 : 32x32x32 —> 16x16x32 : Params = 0
-CONV2 : 16x16x32 —> 16x16x16 : Params = (5 * 5 * 32) * 16 = 12800
-POOL2 : 16x16x16 —> 8x8x16 : Params = 0
-CONV3 : 8x8x16 —> 8x8x32 : Params = (5 * 5 * 16) * 32 = 12800
-POOL3 : 8x8x32 —> 4x4x32 : Params = 0
-FC : 4x4x32 —> 512 : Params = 0
-Softmax : 512 —> 10 : Params = 512 * 10 = 5120
+| Layer | Input Size | Output Size | # Parameters |
+|:-:|:-:|:-:|:-:|
+| CONV1 | 32x32x3 | 32x32x32 | (5 * 5 * 3) * 32 = 2400 |
+| POOL1 | 32x32x32 | 16x16x32 | 0 |
+| CONV2 | 16x16x32 | 16x16x16 | (5 * 5 * 32) * 16 = 12800 |
+| POOL2 | 16x16x16 | 8x8x16 | 0 |
+| CONV3 | 8x8x16 | 8x8x32 | (5 * 5 * 16) * 32 = 12800 |
+| POOL3 | 8x8x32 | 4x4x32 | 0 |
+| FC | 4x4x32 | 512 | 0 |
+| Softmax | 512 | 10 | 512 * 10 = 5120 |
 
 총 33120개의 Parameter가 사용됩니다.<br/>
 
@@ -333,7 +335,13 @@ Softmax : 512 —> 10 : Params = 512 * 10 = 5120
 
 CONV + POOL의 한 세트를 거친 결과를 한 Hidden Layer라고 생각하면, MLP의 구조는,<br/>
 
-32x32x3 (= 3720) —> 16x16x32 (= 8192) —> 8x8x16 (= 1024) —> 4x4x32 (= 512) —> 10<br/>
+| Layer | Input Size | Output Size | # Parameters |
+|:-:|:-:|:-:|:-:|
+| Input | - | - | - |
+| Hidden1 | 32x32x3 = 3720 | 16x16x32 = 8192 | 3720 * 8192 = 30474240 |
+| Hidden2 | 8192 | 8x8x16 = 1024 | 8192 * 1024 = 8388608 |
+| Hidden3 | 1024 | 4x4x32 = 512 | 1024 * 512 = 524288 |
+| Output | 512 | 10 | 512 * 10 = 5120 |
 
 총 35107840개의 Parameter가 사용됩니다.<br/>
 
