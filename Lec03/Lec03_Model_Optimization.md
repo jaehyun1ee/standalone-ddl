@@ -12,8 +12,8 @@
 첫 번째 강의에서 **Model Optimization**을 하기 위해서는, 두 가지 질문들에 대한 답을 달아야 한다고 했습니다. 
 많이 들어서 지겨우신가요?<br/>
 
-1. Parameter가 얼마나 부정확한지 표현할 수치적 척도 필요<br/>
-2. Parameter를 실제로 Update해주는 Algorithm 필요<br/>
+1. **Parameter가 얼마나 부정확한지 표현할 수치적 척도 필요**<br/>
+2. **Parameter를 실제로 Update해주는 Algorithm 필요**<br/>
 
 1번 질문에 대한 답은, 지난 강의에서 다뤘습니다.<br/>
 
@@ -59,7 +59,7 @@ Loss를 계산하는 방법을 다시 볼까요?<br/><br/>
 
 이제, Loss를 Visualize해봅시다. 다양한 W, b의 조합에 따른 Loss를 다차원 공간상에 나타낼 수 있겠죠?
 
-![Loss Graph](*)
+![Loss Graph](https://miro.medium.com/max/1400/0*KUao5zocCfeI_DuF.png)
 
 우리의 목표는 Loss를 최소화하는 것입니다. 
 따라서, 위에서 그린 그래프가 최솟값을 가질 때의 W와 b값을 얻고 싶은 것이죠. 
