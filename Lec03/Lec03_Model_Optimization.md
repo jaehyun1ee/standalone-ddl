@@ -231,7 +231,7 @@ Backpropagation을 간략히 설명하자면, 다음과 같습니다.<br/>
 
 1. 복잡한 함수는 간단한 함수나 연산들의 합성함수로 나타낼 수 있다. 그것을 **Computational Graph**로 시각화할 수 있다.<br/>
 
-2. **Chain Rule(합성함수 미분법)** 을 적용하여, 간단한 함수이나 연산들의 도함수들로 원래 함수의 도함수를 구해 낸다. <br/>
+2. **Chain Rule(합성함수 미분법)** 을 적용하여, 간단한 함수이나 연산들의 도함수들로 원래 함수의 도함수를 구해 낸다.<br/>
 
 고등학교 수학으로 돌아가, exp(cosx)를 어떻게 미분하는지를 생각해 볼까요?<br/>
 
@@ -314,9 +314,9 @@ f = 1 / (1 + exp(- w0 * x0 - w1 * x1 + w2)라고 합시다.
 
 복잡한 함수를 간단한 함수들로 쪼개어 그것을 Computational Graph로 시각화한 후, Chain Rule을 통해 미분계수를 계산해낸 것입니다!
 
-** Input 값 1개가 여러가지 함수들의 Input으로 들어간다면 어떻게 되나요? <br/>
+:question: Input 값 1개가 여러가지 함수들의 Input으로 들어간다면 어떻게 되나요? <br/>
 
-각각의 함수에서, Input의 Gradient를 구해 줍니다. 그 다음, Gradient들을 더해 준 것이 최종적으로 Input에 대한 Gradient가 됩니다.
+:point_right: 각각의 함수에서, Input의 Gradient를 구해 줍니다. 그 다음, Gradient들을 더해 준 것이 최종적으로 Input에 대한 Gradient가 됩니다.
 
 ### B. Vector
 
@@ -396,22 +396,22 @@ General Jacobian을 사용하지 않고, Elementwise하게 dL / dW를 구한다�
 Gradient를 계산할 때, General Jacobian을 구하지 않고, Elementwise한 Chain Rule을 적용한 것이죠. 
 여기서 Local Gradient는, dL / dW를 Elementwise하게 구하는 과정에 Implicit하게 포함되어 있는 것입니다!<br/>
 
-** 위의 방법이 어떻게 더 효율적인가요?<br/>
+:question: 위의 방법이 어떻게 더 효율적인가요?<br/>
 
-dL / dW를 구하는 과정에서, General Jacobian Approach와 Elementwise한 Approach 모두 Local Gradient를 계산하고 있기는 합니다. 
+:point_right: dL / dW를 구하는 과정에서, General Jacobian Approach와 Elementwise한 Approach 모두 Local Gradient를 계산하고 있기는 합니다. 
 General Jacobian을 구하려고 하니, 그 크기가 너무 커져서, Elementwise하게 Gradient를 계산한 것입니다.<br/>
 
 General Jacobian이 있으면, 한번에 많은 숫자를 저장하고 있어야 하기 때문에 비효율적입니다.<br/>
 
 Elementwise한 계산을 할 때는, 필요할 때마다 Local Gradient의 Entry를 계산하면 되니까, 저장 공간이 많이 필요하지는 않은 것이죠.<br/>
 
-** 도함수에서 행렬의 Transpose(전치)가 나오는 기준이 무엇인가요?<br/>
+:question: 도함수에서 행렬의 Transpose(전치)가 나오는 기준이 무엇인가요?<br/>
 
-dL / dW = dL / dy * x’는 그저 Elementwise하게 편미분한 결과를 정리해서 나타내기 위함이지, 행렬의 전치에 수학적인 이유가 숨어있는 것은 아닙니다.<br/>
+:point_right: dL / dW = dL / dy * x’는 그저 Elementwise하게 편미분한 결과를 정리해서 나타내기 위함이지, 행렬의 전치에 수학적인 이유가 숨어있는 것은 아닙니다.<br/>
 
-** 수식이 이해가 잘 안돼요...!<br/>
+:question: 수식이 이해가 잘 안돼요...!<br/>
 
-바로 이해가 되지 않아도 괜찮습니다.<br/>
+:point_right: 바로 이해가 되지 않아도 괜찮습니다.<br/>
 
 구글링을 하면, 행렬 연산들에 대한 Gradient들이 정리된 수식으로 나오므로, 그것을 코드로 옮기기만 하면 됩니다.<br/>
 
@@ -444,9 +444,9 @@ Matrix에 대한 Backpropagation을 자세히 정리해 놓은 자료는, [[Line
 
 ![Linear Classifier Gradient Derivation](*)
 
-** Backpropagation은 편미분한 값들이 Node들 간에 전달되는 것인데, 이렇게 전체 도함수를 구하는 것은 Backpropagation이 아니지 않나요?<br/>
+:question: Backpropagation은 편미분한 값들이 Node들 간에 전달되는 것인데, 이렇게 전체 도함수를 구하는 것은 Backpropagation이 아니지 않나요?<br/>
 
-맞습니다. 
+:point_right: 맞습니다. 
 원래는, Node들 간에 편미분한 값들을 전달하여 미분값을 얻습니다.<br/>
 
 다만, Linear Classifier는 단순한 Model이고, Chain Rule 이해를 돕기 위해 전체의 도함수를 유도하겠습니다. 
