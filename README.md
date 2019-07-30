@@ -100,3 +100,7 @@ Convolutional Neural Network : [[slides](Lec05/Lec05_Convolutional_Neural_Networ
 
 CIFAR-10 Classification w/ CNN : [[full code](Lec05/Lec05_CIFAR_10.ipynb)]<br/>
 Preprocessing EMNIST Data : [[skeleton](Lec05/Lec05_EMIST_Preprocess.ipynb)]
+
+###### :bar_chart: Feedbacks
+
+Lec05에 대한 사후 설문조사입니다! [[form](https://forms.gle/xsuAwgkwpXcTe7kdA)]
