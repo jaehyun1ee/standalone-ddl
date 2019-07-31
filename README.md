@@ -99,7 +99,6 @@ Convolutional Neural Network : [[slides](Lec05/Lec05_Convolutional_Neural_Networ
 #### :computer: Coding
 
 CIFAR-10 Classification w/ CNN : [[full code](Lec05/Lec05_CIFAR_10.ipynb)]<br/>
-Preprocessing EMNIST Data : [[skeleton](Lec05/Lec05_EMIST_Preprocess.ipynb)]
 
 #### :bar_chart: Feedbacks
 
@@ -111,4 +110,8 @@ Lec05에 대한 사후 설문조사입니다! [[form](https://forms.gle/xsuAwgkw
 
 #### :closed_book: Lecture
 
-Training Neural Networks I : [[~~slides~~](*)]
+Training Neural Networks I : [[slides](Lec06/Lec06_Training_Neural_Networks.pdf)]
+
+#### :computer: Coding
+
+EMNIST Classification : [[skeleton](Lec06/Lec06_EMNIST_sk.ipynb)] 
