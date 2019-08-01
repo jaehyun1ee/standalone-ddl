@@ -114,4 +114,10 @@ Training Neural Networks I : [[slides](Lec06/Lec06_Training_Neural_Networks.pdf)
 
 #### :computer: Coding
 
-EMNIST Classification : [[skeleton](Lec06/Lec06_EMNIST_sk.ipynb)] 
+EMNIST Classification : [[skeleton](Lec06/Lec06_EMNIST_sk.ipynb)] [[until preprocessing](Lec06/Lec06_EMNIST_Preprocess.ipynb)]
+
+#### :bar_chart: Feedbacks
+
+Lec06에 대한 사후 설문조사입니다! [[form](https://forms.gle/sJnXLSArPxRDmrpbA)]
+
+
