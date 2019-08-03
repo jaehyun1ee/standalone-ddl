@@ -110,14 +110,26 @@ Lec05에 대한 사후 설문조사입니다! [[form](https://forms.gle/xsuAwgkw
 
 #### :closed_book: Lecture
 
-Training Neural Networks I : [[slides](Lec06/Lec06_Training_Neural_Networks.pdf)]
+Training Neural Networks I : [[slides](Lec06/Lec06_Training_Neural_Networks.pdf)] [[~~lecture video~~](*)]
 
 #### :computer: Coding
 
-EMNIST Classification : [[skeleton](Lec06/Lec06_EMNIST_sk.ipynb)] [[until preprocessing](Lec06/Lec06_EMNIST_Preprocess.ipynb)]
+EMNIST Data Preprocessing : [[skeleton](Lec06/Lec06_EMNIST_Preprocess_sk.ipynb)] [[full code](Lec06/Lec06_EMNIST_Preprocess.ipynb)]
 
 #### :bar_chart: Feedbacks
 
 Lec06에 대한 사후 설문조사입니다! [[form](https://forms.gle/sJnXLSArPxRDmrpbA)]
+
+### Lec07 : Training Neural Networks II
+
+2019/08/05(월) 14:00 ~ 17:00 E9 3층 IR Studio
+
+#### :closed_book: Lecture
+
+Training Neural Networks II : [[~~slides~~](*)] [[~~lecture video~~](*)]
+
+#### :computer: Coding
+
+EMNIST Classification : [[skeleton](Lec07/Lec07_EMNIST_Classification_sk.ipynb)] [[~~full code~~](*)]
 
 
