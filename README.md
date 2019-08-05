@@ -132,4 +132,8 @@ Training Neural Networks II : [[slides](Lec07/Lec07_Training_Neural_Networks_II_
 
 EMNIST Classification : [[skeleton](Lec07/Lec07_EMNIST_Classification_sk.ipynb)] [[~~full code~~](*)]
 
+#### :bar_chart: Feedbacks
+
+Lec07에 대한 사후 설문조사입니다! [[form](https://forms.gle/o5L4xkVxAj7t6Wm28)]
+
 
