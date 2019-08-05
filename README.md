@@ -126,7 +126,7 @@ Lec06에 대한 사후 설문조사입니다! [[form](https://forms.gle/sJnXLSAr
 
 #### :closed_book: Lecture
 
-Training Neural Networks II : [[~~slides~~](*)] [[~~lecture video~~](*)]
+Training Neural Networks II : [[slides](Lec07/Lec07_Training_Neural_Networks_II_v2.pdf)] [[~~lecture video~~](*)]
 
 #### :computer: Coding
 
