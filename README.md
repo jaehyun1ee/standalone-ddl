@@ -136,4 +136,14 @@ EMNIST Classification : [[skeleton](Lec07/Lec07_EMNIST_Classification_sk.ipynb)]
 
 Lec07에 대한 사후 설문조사입니다! [[form](https://forms.gle/o5L4xkVxAj7t6Wm28)]
 
+### Lec08 : Training Neural Networks III
 
+2019/08/06(화) 14:00 ~ 17:00 E9 3층 IR Studio
+
+#### :closed_book: Lecture
+
+Training Neural Networks III : [[slides](Lec08/Lec08_Training_Neural_Networks_III.pdf)] [[~~lecture video~~](*)]
+
+#### :computer: Coding
+
+Simpsons Data Augmentation : [[skeleton](Lec08/Lec08_Simpsons_Augmentation_sk.ipynb)]
