@@ -130,7 +130,7 @@ Training Neural Networks II : [[slides](Lec07/Lec07_Training_Neural_Networks_II_
 
 #### :computer: Coding
 
-EMNIST Classification : [[skeleton](Lec07/Lec07_EMNIST_Classification_sk.ipynb)] [[~~full code~~](*)]
+EMNIST Classification : [[skeleton](Lec07/Lec07_EMNIST_Classification_sk.ipynb)] [[full code](Lec07/Lec07_EMNIST_Classification.ipynb)]
 
 #### :bar_chart: Feedbacks
 
