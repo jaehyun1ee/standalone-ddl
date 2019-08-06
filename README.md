@@ -146,4 +146,8 @@ Training Neural Networks III : [[slides](Lec08/Lec08_Training_Neural_Networks_II
 
 #### :computer: Coding
 
-Simpsons Data Augmentation : [[skeleton](Lec08/Lec08_Simpsons_Augmentation_sk.ipynb)]
+Simpsons Data Augmentation : [[skeleton](Lec08/Lec08_Simpsons_Augmentation_sk.ipynb)] [[full code](Lec08/Lec08_Simpsons_Augmentation.ipynb)]
+
+#### :bar_chart: Feedbacks
+
+Lec08에 대한 사후 설문조사입니다! [[form](https://forms.gle/unDg36EfYDZERMXa7)]
