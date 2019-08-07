@@ -130,7 +130,7 @@ Training Neural Networks II : [[slides](Lec07/Lec07_Training_Neural_Networks_II_
 
 #### :computer: Coding
 
-EMNIST Classification : [[skeleton](Lec07/Lec07_EMNIST_Classification_sk.ipynb)] [[full code](Lec07/Lec07_EMNIST_Classification.ipynb)] [[model testing](Lec07/Lec07_EMNIST_Model_Testing.ipynb)]
+EMNIST Classification : [[skeleton](Lec07/Lec07_EMNIST_Classification_sk.ipynb)] [[full code](Lec07/Lec07_EMNIST_Classification.ipynb)] [[model testing](Lec07/Lec07_EMNIST_Model_Testing.ipynb)] [[custom dataset](Lec07/emnist-custom.zip)]
 
 #### :bar_chart: Feedbacks
 
@@ -151,3 +151,16 @@ Simpsons Data Augmentation : [[skeleton](Lec08/Lec08_Simpsons_Augmentation_sk.ip
 #### :bar_chart: Feedbacks
 
 Lec08에 대한 사후 설문조사입니다! [[form](https://forms.gle/unDg36EfYDZERMXa7)]
+
+### Lec09 : Various Neural Network Structures
+
+2019/08/08(목) 14:00 ~ 17:00 E9 3층 IR Studio
+
+#### :closed_book: Lecture
+
+Various Neural Network Structrues : [[~~slides~~](*)] [[~~lecture video~~](*)]
+
+#### :computer: Coding
+
+Simpsons Data Classification : [[skeleton](Lec09/Lec09_Simpsons_Classification_sk.ipynb
+)]
