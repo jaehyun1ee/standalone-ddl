@@ -163,4 +163,4 @@ Various Neural Network Structrues : [[slides](Lec09/Lec09_Various_CNN_Architectu
 #### :computer: Coding
 
 Simpsons Data Classification : [[skeleton](Lec09/Lec09_Simpsons_Classification_sk.ipynb
-)]
+)][[full code](Lec09/Lec09_Simpsons_Classification.ipynb)] [[model testing](Lec09/Lec09_Simpsons_Model_Testing.ipynb)] [[testset]()]
