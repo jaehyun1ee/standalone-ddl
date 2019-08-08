@@ -158,7 +158,7 @@ Lec08에 대한 사후 설문조사입니다! [[form](https://forms.gle/unDg36Ef
 
 #### :closed_book: Lecture
 
-Various Neural Network Structrues : [[~~slides~~](*)] [[~~lecture video~~](*)]
+Various Neural Network Structrues : [[slides](Lec09/Lec09_Various_CNN_Architectures.pdf)] [[~~lecture video~~](*)]
 
 #### :computer: Coding
 
