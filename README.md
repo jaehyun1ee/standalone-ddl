@@ -110,7 +110,7 @@ Lec05에 대한 사후 설문조사입니다! [[form](https://forms.gle/xsuAwgkw
 
 #### :closed_book: Lecture
 
-Training Neural Networks I : [[slides](Lec06/Lec06_Training_Neural_Networks.pdf)] [[slides + notes](Lec06/Lec06_Training_Neural_Networks_I_v2_inclass.pdf)] [[~~lecture video~~](*)]
+Training Neural Networks I : [[slides](Lec06/Lec06_Training_Neural_Networks.pdf)] [[slides + notes](Lec06/Lec06_Training_Neural_Networks_I_v1_inclass.pdf)] [[~~lecture video~~](*)]
 
 #### :computer: Coding
 
