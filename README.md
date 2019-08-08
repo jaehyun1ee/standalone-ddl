@@ -94,7 +94,7 @@ Lec04에 대한 사후 설문조사입니다! : [[form](https://forms.gle/jpwUvF
 
 #### :closed_book: Lecture
 
-Convolutional Neural Network : [[slides](Lec05/Lec05_Convolutional_Neural_Network_v2_upld.pdf)] [[slides + notes](Lec05/Lec05_Convolutional_Neural_Network_v2_inclass.pdf)] [[lecture in text](Lec05/Lec05_Convolutional_Neural_Network.md)](_이미지는 업로드 예정입니다!_) [[~~lecture video~~](*)]
+Convolutional Neural Network : [[slides](Lec05/Lec05_Convolutional_Neural_Network_v2_upld.pdf)] [[slides + notes](Lec05/Lec05_Convolutional_Neural_Network_v1_inclass.pdf)] [[lecture in text](Lec05/Lec05_Convolutional_Neural_Network.md)](_이미지는 업로드 예정입니다!_) [[~~lecture video~~](*)]
 
 #### :computer: Coding
 
@@ -110,7 +110,7 @@ Lec05에 대한 사후 설문조사입니다! [[form](https://forms.gle/xsuAwgkw
 
 #### :closed_book: Lecture
 
-Training Neural Networks I : [[slides](Lec06/Lec06_Training_Neural_Networks.pdf)] [[slides + notes](Lec06/Lec06_Training_Neural_Networks_v2_inclass.pdf)] [[~~lecture video~~](*)]
+Training Neural Networks I : [[slides](Lec06/Lec06_Training_Neural_Networks.pdf)] [[slides + notes](Lec06/Lec06_Training_Neural_Networks_I_v2_inclass.pdf)] [[~~lecture video~~](*)]
 
 #### :computer: Coding
 
@@ -142,7 +142,7 @@ Lec07에 대한 사후 설문조사입니다! [[form](https://forms.gle/o5L4xkVx
 
 #### :closed_book: Lecture
 
-Training Neural Networks III : [[slides](Lec08/Lec08_Training_Neural_Networks_III.pdf)] [[slides + notes](Lec08/Lec08_Training_Neural_Neworks_III_v1_inclass.pdf)] [[~~lecture video~~](*)]
+Training Neural Networks III : [[slides](Lec08/Lec08_Training_Neural_Networks_III.pdf)] [[slides + notes](Lec08/Lec08_Training_Neural_Networks_III_v1_inclass.pdf)] [[~~lecture video~~](*)]
 
 #### :computer: Coding
 
