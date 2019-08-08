@@ -28,7 +28,7 @@ Google Colab과 Python Numpy Library 사용법에 대한 Tutorial Code입니다.
 
 #### :closed_book: Lecture
 
-Intro to ML : [[slides](Lec01/Lec01_Intro_to_ML_v3_upld.pdf)] [[lecture in text](Lec01/Lec01_Intro_to_ML.md)]
+Intro to ML : [[slides](Lec01/Lec01_Intro_to_ML_v3_upld.pdf)] [[slides + notes](Lec01/Lec01_Intro_to_ML_v3_inclass.pdf)] [[lecture in text](Lec01/Lec01_Intro_to_ML.md)]
 
 #### :computer: Coding
 
@@ -45,7 +45,7 @@ Lec01에 대한 피드백 설문조사입니다! : [[form](https://forms.gle/tGX
 
 #### :closed_book: Lecture
 
-Linear Classifier : [[slides](Lec02/Lec02_Linear_Classifier_v2_upld.pdf)] [[lecture in text](Lec02/Lec02_Linear_Classifier.md)]
+Linear Classifier : [[slides](Lec02/Lec02_Linear_Classifier_v2_upld.pdf)] [[slides + notes](Lec02/Lec02_Linear_Classifier_v2_inclass.pdf)] [[lecture in text](Lec02/Lec02_Linear_Classifier.md)]
 
 #### :computer: Coding
 
@@ -61,7 +61,7 @@ Lec02에 대한 피드백 설문조사입니다! : [[form](https://forms.gle/Hxg
 
 #### :closed_book: Lecture
 
-Model Optimization : [[slides](Lec03/Lec03_Model_Optimization_v2_upld.pdf)] [[gradient derivation](Lec03/Lec03_Model_Optimization_Deriving_Gradients.pdf)] [[lecture in text](Lec03/Lec03_Model_Optimization.md)](_이미지는 업로드 예정입니다!_) [[~~lecture video~~](*)]
+Model Optimization : [[slides](Lec03/Lec03_Model_Optimization_v2_upld.pdf)] [[gradient derivation](Lec03/Lec03_Model_Optimization_Deriving_Gradients.pdf)] [[slides + notes](Lec03/Lec03_Model_Optimization_v2_inclass.pdf)] [[lecture in text](Lec03/Lec03_Model_Optimization.md)](_이미지는 업로드 예정입니다!_) [[~~lecture video~~](*)]
 
 #### :computer: Coding
 
@@ -77,7 +77,7 @@ Lec03에 대한 사후 설문조사입니다! : [[form](https://docs.google.com/
 
 #### :closed_book: Lecture
 
-Neural Network Basics : [[slides](Lec04/Lec04_Neural_Network_Basics_v2_upld.pdf)] [[lecture in text](Lec04/Lec04_Neural_Network_Basics.md)](_이미지는 업로드 예정입니다!_) [[~~lecture video~~](*)]
+Neural Network Basics : [[slides](Lec04/Lec04_Neural_Network_Basics_v2_upld.pdf)] [[slides + notes](Lec04/Lec04_Neural_Network_Basics_v2_inclass.pdf)] [[lecture in text](Lec04/Lec04_Neural_Network_Basics.md)](_이미지는 업로드 예정입니다!_) [[~~lecture video~~](*)]
 
 #### :computer: Coding
 
@@ -94,7 +94,7 @@ Lec04에 대한 사후 설문조사입니다! : [[form](https://forms.gle/jpwUvF
 
 #### :closed_book: Lecture
 
-Convolutional Neural Network : [[slides](Lec05/Lec05_Convolutional_Neural_Network_v2_upld.pdf)] [[lecture in text](Lec05/Lec05_Convolutional_Neural_Network.md)](_이미지는 업로드 예정입니다!_) [[~~lecture video~~](*)]
+Convolutional Neural Network : [[slides](Lec05/Lec05_Convolutional_Neural_Network_v2_upld.pdf)] [[slides + notes](Lec05/Lec05_Convolutional_Neural_Network_v2_inclass.pdf)] [[lecture in text](Lec05/Lec05_Convolutional_Neural_Network.md)](_이미지는 업로드 예정입니다!_) [[~~lecture video~~](*)]
 
 #### :computer: Coding
 
@@ -110,7 +110,7 @@ Lec05에 대한 사후 설문조사입니다! [[form](https://forms.gle/xsuAwgkw
 
 #### :closed_book: Lecture
 
-Training Neural Networks I : [[slides](Lec06/Lec06_Training_Neural_Networks.pdf)] [[~~lecture video~~](*)]
+Training Neural Networks I : [[slides](Lec06/Lec06_Training_Neural_Networks.pdf)] [[slides + notes](Lec06/Lec06_Training_Neural_Networks_v2_inclass.pdf)] [[~~lecture video~~](*)]
 
 #### :computer: Coding
 
@@ -126,7 +126,7 @@ Lec06에 대한 사후 설문조사입니다! [[form](https://forms.gle/sJnXLSAr
 
 #### :closed_book: Lecture
 
-Training Neural Networks II : [[slides](Lec07/Lec07_Training_Neural_Networks_II_v2.pdf)] [[~~lecture video~~](*)]
+Training Neural Networks II : [[slides](Lec07/Lec07_Training_Neural_Networks_II_v2.pdf)] [[slides + notes](Lec07/Lec07_Training_Neural_Networks_II_v2_inclass.pdf)] [[~~lecture video~~](*)]
 
 #### :computer: Coding
 
@@ -142,7 +142,7 @@ Lec07에 대한 사후 설문조사입니다! [[form](https://forms.gle/o5L4xkVx
 
 #### :closed_book: Lecture
 
-Training Neural Networks III : [[slides](Lec08/Lec08_Training_Neural_Networks_III.pdf)] [[~~lecture video~~](*)]
+Training Neural Networks III : [[slides](Lec08/Lec08_Training_Neural_Networks_III.pdf)] [[slides + notes](Lec08/Lec08_Training_Neural_Neworks_III_v1_inclass.pdf)] [[~~lecture video~~](*)]
 
 #### :computer: Coding
 
@@ -152,13 +152,13 @@ Simpsons Data Augmentation : [[skeleton](Lec08/Lec08_Simpsons_Augmentation_sk.ip
 
 Lec08에 대한 사후 설문조사입니다! [[form](https://forms.gle/unDg36EfYDZERMXa7)]
 
-### Lec09 : Various Neural Network Structures
+### Lec09 : Various CNN Architectures
 
 2019/08/08(목) 14:00 ~ 17:00 E9 3층 IR Studio
 
 #### :closed_book: Lecture
 
-Various Neural Network Structrues : [[slides](Lec09/Lec09_Various_CNN_Architectures.pdf)] [[~~lecture video~~](*)]
+Various Neural Network Structrues : [[slides](Lec09/Lec09_Various_CNN_Architectures.pdf)] [[slides + notes](Lec09/Lec09_Various_CNN_Architectures_v1_inclass.pdf)] [[~~lecture video~~](*)]
 
 #### :computer: Coding
 
