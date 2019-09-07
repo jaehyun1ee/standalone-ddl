@@ -61,7 +61,7 @@ Lec02에 대한 피드백 설문조사입니다! : [[form](https://forms.gle/Hxg
 
 #### :closed_book: Lecture
 
-Model Optimization : [[slides](Lec03/Lec03_Model_Optimization_v2_upld.pdf)] [[gradient derivation](Lec03/Lec03_Model_Optimization_Deriving_Gradients.pdf)] [[slides + notes](Lec03/Lec03_Model_Optimization_v2_inclass.pdf)] [[lecture in text](Lec03/Lec03_Model_Optimization.md)](_이미지는 업로드 예정입니다!_) [[~~lecture video~~](*)]
+Model Optimization : [[slides](Lec03/Lec03_Model_Optimization_v2_upld.pdf)] [[gradient derivation](Lec03/Lec03_Model_Optimization_Deriving_Gradients.pdf)] [[slides + notes](Lec03/Lec03_Model_Optimization_v2_inclass.pdf)] [[lecture in text](Lec03/Lec03_Model_Optimization.md)](_이미지는 업로드 예정입니다!_)
 
 #### :computer: Coding
 
@@ -83,7 +83,7 @@ Neural Network Basics : [[slides](Lec04/Lec04_Neural_Network_Basics_v2_upld.pdf)
 
 Keras Tutorial for MNIST Classification : [[tutorial](Lec04/Lec04_Keras_Tutorial.ipynb)]<br/>
 XOR Classification with MLP (optional) : [[full code](Lec04/Lec04_XOR_practice.ipynb)]<br/>
-[[lab video] (https://youtu.be/UrTvgz9n9hY)]
+[[lab video](https://youtu.be/UrTvgz9n9hY)]
 
 #### :bar_chart: Feedbacks
 
@@ -117,7 +117,7 @@ Training Neural Networks I : [[slides](Lec06/Lec06_Training_Neural_Networks.pdf)
 #### :computer: Coding
 
 EMNIST Data Preprocessing : [[skeleton](Lec06/Lec06_EMNIST_Preprocess_sk.ipynb)] [[full code](Lec06/Lec06_EMNIST_Preprocess.ipynb)]<br/>
-[[lab video] (https://youtu.be/gjHBjMRaSLM)]
+[[lab video](https://youtu.be/gjHBjMRaSLM)]
 
 #### :bar_chart: Feedbacks
 
@@ -134,7 +134,7 @@ Training Neural Networks II : [[slides](Lec07/Lec07_Training_Neural_Networks_II_
 #### :computer: Coding
 
 EMNIST Classification : [[skeleton](Lec07/Lec07_EMNIST_Classification_sk.ipynb)] [[full code](Lec07/Lec07_EMNIST_Classification.ipynb)] [[model testing](Lec07/Lec07_EMNIST_Model_Testing.ipynb)] [[custom dataset](Lec07/emnist-custom.zip)]<br/>
-[[lab video] (https://youtu.be/As9UN5qThJg)]
+[[lab video](https://youtu.be/As9UN5qThJg)]
 
 #### :bar_chart: Feedbacks
 
@@ -151,7 +151,7 @@ Training Neural Networks III : [[slides](Lec08/Lec08_Training_Neural_Networks_II
 #### :computer: Coding
 
 Simpsons Data Augmentation : [[skeleton](Lec08/Lec08_Simpsons_Augmentation_sk.ipynb)] [[full code](Lec08/Lec08_Simpsons_Augmentation.ipynb)]<br/>
-[[lab video] (https://youtu.be/iKrXvjl_0Yg)]
+[[lab video](https://youtu.be/iKrXvjl_0Yg)]
 
 #### :bar_chart: Feedbacks
 
@@ -169,4 +169,4 @@ Various Neural Network Structrues : [[slides](Lec09/Lec09_Various_CNN_Architectu
 
 Simpsons Data Classification : [[skeleton](Lec09/Lec09_Simpsons_Classification_sk.ipynb
 )][[full code](Lec09/Lec09_Simpsons_Classification.ipynb)][[model testing](Lec09/Lec09_Simpsons_Model_Testing.ipynb)] [[testset](Lec09/simpsons_testset.zip)]<br/>
-[[lab video] (https://youtu.be/loQmmjyR-ig)]
+[[lab video](https://youtu.be/loQmmjyR-ig)]
